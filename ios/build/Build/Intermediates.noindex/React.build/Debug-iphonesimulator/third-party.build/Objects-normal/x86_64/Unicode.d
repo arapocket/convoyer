@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/third-party/folly-2016.09.26.00/folly/Unicode.cpp \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Unicode.h
+  /Users/Pocket/convoyer/node_modules/react-native/third-party/folly-2016.09.26.00/folly/Unicode.cpp \
+  /Users/Pocket/convoyer/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Unicode.h

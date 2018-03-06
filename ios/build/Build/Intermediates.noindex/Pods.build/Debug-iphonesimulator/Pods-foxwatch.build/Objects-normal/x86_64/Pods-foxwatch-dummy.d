@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/Pocket/foxwatchbymobss/ios/Pods/Target\ Support\ Files/Pods-foxwatch/Pods-foxwatch-dummy.m
+  /Users/Pocket/convoyer/ios/Pods/Target\ Support\ Files/Pods-foxwatch/Pods-foxwatch-dummy.m

@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.cpp \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.h \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/ReactCommon/yoga/yoga/YGMacros.h
+  /Users/Pocket/convoyer/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.cpp \
+  /Users/Pocket/convoyer/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.h \
+  /Users/Pocket/convoyer/node_modules/react-native/ReactCommon/yoga/yoga/YGMacros.h

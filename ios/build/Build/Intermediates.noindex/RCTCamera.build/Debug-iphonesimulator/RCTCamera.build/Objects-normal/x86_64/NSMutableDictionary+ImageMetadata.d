@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native-camera/ios/NSMutableDictionary+ImageMetadata.m
+  /Users/Pocket/convoyer/node_modules/react-native-camera/ios/NSMutableDictionary+ImageMetadata.m

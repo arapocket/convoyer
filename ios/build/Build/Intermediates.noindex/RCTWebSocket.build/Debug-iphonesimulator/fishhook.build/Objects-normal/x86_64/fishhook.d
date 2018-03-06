@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/Libraries/fishhook/fishhook.c \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/Libraries/fishhook/fishhook.h
+  /Users/Pocket/convoyer/node_modules/react-native/Libraries/fishhook/fishhook.c \
+  /Users/Pocket/convoyer/node_modules/react-native/Libraries/fishhook/fishhook.h

@@ -1,20 +1,20 @@
 dependencies: \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/React/Views/RCTWrapperViewController.m \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/React/Views/RCTWrapperViewController.h \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/React/Views/RCTViewControllerProtocol.h \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/React/Base/RCTEventDispatcher.h \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/React/Base/RCTBridge.h \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/React/Base/RCTBridgeModule.h \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/React/Base/RCTFrameUpdate.h \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/React/Base/RCTInvalidating.h \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/React/Views/RCTNavItem.h \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/React/Views/RCTComponent.h \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/React/Base/RCTUtils.h \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/React/Views/UIView+React.h \
-  /Users/Pocket/foxwatchbymobss/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
-  /Users/Pocket/foxwatchbymobss/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/Pocket/foxwatchbymobss/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h
+  /Users/Pocket/convoyer/node_modules/react-native/React/Views/RCTWrapperViewController.m \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Views/RCTWrapperViewController.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Views/RCTViewControllerProtocol.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Views/RCTNavItem.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h

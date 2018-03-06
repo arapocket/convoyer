@@ -1,2 +1,2 @@
-dependencies: /Users/Pocket/foxwatchbymobss/ios/foxwatch/main.m \
-  /Users/Pocket/foxwatchbymobss/ios/foxwatch/AppDelegate.h
+dependencies: /Users/Pocket/convoyer/ios/foxwatch/main.m \
+  /Users/Pocket/convoyer/ios/foxwatch/AppDelegate.h

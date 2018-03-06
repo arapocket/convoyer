@@ -68,7 +68,6 @@
 		B84B4F943C3C4989A40526CC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CA4D7CC78C49EBA8EA9674 /* libsqlite3.tbd */; };
 		BD1FB914D27A43FD94087461 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29F5BDD0A82E454C9A0014FB /* Foundation.ttf */; };
 		C85356029E104B20B812AA07 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF132BEE585F4B6E824F25DB /* Entypo.ttf */; };
-		CC32DAC541834F2C83A4C4CB /* libRCTCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5850BAC976B44E84A78191A4 /* libRCTCamera.a */; };
 		DB1A214EDEE6425B9BA810BA /* libRCTVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBAF0DAE2B6496498603426 /* libRCTVideo.a */; };
 		E98A6039D71A40089885B9C6 /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 063B4BC6F3DB4917A2D081D2 /* Roboto_medium.ttf */; };
 		ED642F9B498B4DB6B55947DF /* RNBackgroundFetch+AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E916D51855BA4BF0BDE71B59 /* RNBackgroundFetch+AppDelegate.m */; };
@@ -644,7 +643,6 @@
 				502DE53BDC8640DFB7A3BF42 /* libRNSpinkit.a in Frameworks */,
 				5BD33780698D4A89ADD59E01 /* libRNDeviceInfo.a in Frameworks */,
 				DB1A214EDEE6425B9BA810BA /* libRCTVideo.a in Frameworks */,
-				CC32DAC541834F2C83A4C4CB /* libRCTCamera.a in Frameworks */,
 				61224BAAAD592F2571173E8E /* libPods-foxwatch.a in Frameworks */,
 				4BCDA76993FA45D38B4BA8FC /* libmovToMp4.a in Frameworks */,
 			);

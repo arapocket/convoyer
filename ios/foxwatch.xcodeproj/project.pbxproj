@@ -338,13 +338,6 @@
 			remoteGlobalIDString = 641E28441F0EEC8500443AF6;
 			remoteInfo = "RCTVideo-tvOS";
 		};
-		A529C7D52022A2770009BF32 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2AF94BF327EA47D5BBE83AE3 /* RCTCamera.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4107012F1ACB723B00C6AA39;
-			remoteInfo = RCTCamera;
-		};
 		A529C7DC2022A4020009BF32 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A529C7D72022A4020009BF32 /* RCTPushNotification.xcodeproj */;
@@ -550,7 +543,6 @@
 		184AEDE9752D427A95D3162D /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		216162D06CAA49D2B8FB76E3 /* libRNBackgroundGeolocation.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNBackgroundGeolocation.a; sourceTree = "<group>"; };
 		29F5BDD0A82E454C9A0014FB /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
-		2AF94BF327EA47D5BBE83AE3 /* RCTCamera.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RCTCamera.xcodeproj"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* foxwatch-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "foxwatch-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* foxwatch-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "foxwatch-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -885,7 +877,6 @@
 				0590183699E74EDBA8BDF669 /* RNSpinkit.xcodeproj */,
 				3F0CCB78883344A38778E5A6 /* RNDeviceInfo.xcodeproj */,
 				0F397B1B72B144FBB519966D /* RCTVideo.xcodeproj */,
-				2AF94BF327EA47D5BBE83AE3 /* RCTCamera.xcodeproj */,
 				D58284151AC9460DAB7EF73E /* movToMp4.xcodeproj */,
 			);
 			name = Libraries;
@@ -959,14 +950,6 @@
 			children = (
 				A529C7802022A1420009BF32 /* libRCTVideo.a */,
 				A529C7822022A1420009BF32 /* libRCTVideo.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A529C7D22022A2760009BF32 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A529C7D62022A2770009BF32 /* libRCTCamera.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1199,10 +1182,6 @@
 				{
 					ProductGroup = ADBDB9201DFEBF0600ED6528 /* Products */;
 					ProjectRef = ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */;
-				},
-				{
-					ProductGroup = A529C7D22022A2760009BF32 /* Products */;
-					ProjectRef = 2AF94BF327EA47D5BBE83AE3 /* RCTCamera.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302B61ABCB90400DB3ED1 /* Products */;
@@ -1527,13 +1506,6 @@
 			fileType = archive.ar;
 			path = libRCTVideo.a;
 			remoteRef = A529C7812022A1420009BF32 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A529C7D62022A2770009BF32 /* libRCTCamera.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRCTCamera.a;
-			remoteRef = A529C7D52022A2770009BF32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		A529C7DD2022A4020009BF32 /* libRCTPushNotification.a */ = {

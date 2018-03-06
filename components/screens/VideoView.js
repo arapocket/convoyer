@@ -13,7 +13,7 @@ import {
     Form
 } from "native-base";
 
-import Camera from 'react-native-camera';
+import { RNCamera } from 'react-native-camera';
 import Icon from 'react-native-vector-icons/Ionicons';
 import EntypoIcon from 'react-native-vector-icons/Entypo';
 import Button from 'apsl-react-native-button'
@@ -76,7 +76,6 @@ class VideoView extends React.Component {
                     captureTarget={Camera.constants.CaptureTarget.disk}
                     jpegQuality={90}
                     fixOrientation={true}
-                    captureMode={Camera.constants.CaptureMode.video}
                     audio={true}
 
                 >
@@ -141,7 +140,7 @@ class VideoView extends React.Component {
                 });
             }, 7000)
 
-            this.camera.capture()
+            this.camera.recordAsync()
                 .then((data) => {
                     this.patrolService.setMediaType('video');
 
@@ -162,7 +161,7 @@ class VideoView extends React.Component {
 
         } else {
             this.setState({ isRecording: false })
-            this.camera.stopCapture();
+            this.camera.stopRecording();
             this.props.navigator.dismissModal({
                 animationType: 'slide-down' // 'none' / 'slide-down' , dismiss animation for the modal (optional, default 'slide-down')
             });

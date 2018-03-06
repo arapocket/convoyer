@@ -13,7 +13,7 @@ import {
     Form
 } from "native-base";
 
-import Camera from 'react-native-camera';
+import { RNCamera } from 'react-native-camera';
 import Icon from 'react-native-vector-icons/Ionicons';
 import Button from 'apsl-react-native-button'
 import Config from '../config';
@@ -122,7 +122,7 @@ class CameraView extends React.Component {
         const options = {
         };
         //options.location = ...
-        this.camera.capture({ metadata: options })
+        this.camera.takePictureAsync({ metadata: options })
             .then((data) => {
                 this.patrolService.setMediaType('photo');
                 console.log("logging path");

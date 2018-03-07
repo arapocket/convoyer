@@ -35,9 +35,9 @@ public class MainApplication extends NavigationApplication {
 
     @Override
     protected List<ReactPackage> getPackages() {
-      return Arrays.<ReactPackage>asList(new ReactVideoPackage(),
-          new ReactNativePushNotificationPackage(), new RNDeviceInfo(), new RNSpinkitPackage(),
-          new VectorIconsPackage(), new RNBackgroundGeolocation(), new MapsPackage(), new RNCameraPackage());
+      return Arrays.<ReactPackage>asList(new ReactVideoPackage(), new ReactNativePushNotificationPackage(),
+          new RNDeviceInfo(), new RNSpinkitPackage(), new VectorIconsPackage(), new RNBackgroundGeolocation(),
+          new MapsPackage(), new RNCameraPackage(), new MainReactPackage());
     }
 
     @Override

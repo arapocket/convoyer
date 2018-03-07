@@ -3,7 +3,6 @@ package com.foxwatch;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import com.lwansbrough.RCTCamera.RCTCameraPackage;
 import com.brentvatne.react.ReactVideoPackage;
 import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
 import com.learnium.RNDeviceInfo.RNDeviceInfo;
@@ -16,6 +15,7 @@ import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
 import com.airbnb.android.react.maps.MapsPackage;
 import com.reactnativenavigation.NavigationApplication;
+import org.reactnative.camera.RNCameraPackage;
 
 import java.util.Arrays;
 import java.util.List;
@@ -35,9 +35,9 @@ public class MainApplication extends NavigationApplication {
 
     @Override
     protected List<ReactPackage> getPackages() {
-      return Arrays.<ReactPackage>asList(new RCTCameraPackage(), new ReactVideoPackage(),
+      return Arrays.<ReactPackage>asList(new ReactVideoPackage(),
           new ReactNativePushNotificationPackage(), new RNDeviceInfo(), new RNSpinkitPackage(),
-          new VectorIconsPackage(), new RNBackgroundGeolocation(), new MapsPackage());
+          new VectorIconsPackage(), new RNBackgroundGeolocation(), new MapsPackage(), new RNCameraPackage());
     }
 
     @Override

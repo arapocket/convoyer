@@ -67,11 +67,8 @@ class CameraView extends React.Component {
                     }}
                     style={styles.preview}
                     fixOrientation = {true}
-                    forceUpOrientation = {true}
-                    
+                    forceUpOrientation = {true}                    
                 >
-
-
 
                     <Icon.Button style={styles.cancelButton}
                         name="md-close-circle"

@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/RNBackgroundGeolocation.m \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/RNBackgroundGeolocation.h \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Modules/module.modulemap \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSGeofenceEvent.h \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSPowerSaveChangeEvent.h \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSGeofencesChangeEvent.h \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSScheduleEvent.h \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSHeartbeatEvent.h \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSHttpEvent.h \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSProviderChangeEvent.h \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSActivityChangeEvent.h \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/LocationManager.h \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSLocation.h \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSSchedule.h \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSLocationManager.h \
+  ../../react-native/React/Modules/RCTEventEmitter.h \
+  /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  ../../react-native/React/Base/RCTInvalidating.h

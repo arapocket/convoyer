@@ -30,7 +30,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import Button from 'apsl-react-native-button'
 
 // import CameraView from './CameraView'
-import VideoView from './VideoView'
+// import VideoView from './VideoView'
 import PatrolService from '../lib/PatrolService';
 import AuthService from '../lib/AuthService';
 import BGService from '../lib/BGService';

@@ -25,8 +25,6 @@ const Item = Picker.Item;
 import Icon from 'react-native-vector-icons/Ionicons';
 import Button from 'apsl-react-native-button'
 
-import CameraView from './CameraView'
-import VideoView from './VideoView'
 import PatrolService from '../lib/PatrolService';
 import BGService from '../lib/BGService';
 import IDService from '../lib/IDService';

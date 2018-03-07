@@ -69,7 +69,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 28368C4E9733ECF6D3559C42;
+			remoteGlobalIDString = B90CA2039A7A3FDA2905E7AF;
 			remoteInfo = React;
 		};
 		D8A39EFB456C727C45B5BD79785E2545 /* PBXContainerItemProxy */ = {
@@ -83,7 +83,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 28368C4E9733ECF6D3559C42;
+			remoteGlobalIDString = B90CA2039A7A3FDA2905E7AF;
 			remoteInfo = React;
 		};
 		F28E320163AFF35C96E9C2A86A4449FE /* PBXContainerItemProxy */ = {

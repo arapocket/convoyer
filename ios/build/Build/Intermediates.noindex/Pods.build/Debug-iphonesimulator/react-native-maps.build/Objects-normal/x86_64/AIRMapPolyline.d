@@ -20,4 +20,5 @@ dependencies: \
   /Users/Pocket/convoyer/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.h \
   /Users/Pocket/convoyer/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.h \
   /Users/Pocket/convoyer/node_modules/react-native/ReactCommon/yoga/yoga/YGMacros.h \
+  /Users/Pocket/convoyer/node_modules/react-native-maps/lib/ios/AirMaps/AIRMapPolylineRenderer.h \
   /Users/Pocket/convoyer/ios/Pods/Headers/Public/React/React/UIView+React.h

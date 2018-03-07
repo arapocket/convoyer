@@ -1,7 +1,7 @@
 PODS:
   - React (0.52.2):
     - React/Core (= 0.52.2)
-  - react-native-maps (0.19.0):
+  - react-native-maps (0.20.1):
     - React
   - React/BatchedBridge (0.52.2):
     - React/Core
@@ -67,7 +67,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   React: 001655c2b9dfc2f55e8271c60098d4f4227fb1b3
-  react-native-maps: d3b689927722398a12a4b3007fd9a0c60e1c48cd
+  react-native-maps: 6ab4fa4f78e88824ec300de0eb412f0556b6a84b
   yoga: 18f5bf8fba4b4a31ca4b42ac931fce5537e1923c
 
 PODFILE CHECKSUM: 975470dc955280f82ab803f163b7f2556a184b1e

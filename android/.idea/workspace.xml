@@ -42,7 +42,7 @@
       <file leaf-file-name="JsDevReloadListenerReplacer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../node_modules/react-native-navigation/android/app/src/main/java/com/reactnativenavigation/react/JsDevReloadListenerReplacer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="57">
               <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
               <folding />
             </state>
@@ -50,6 +50,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>onuser</find>
+    </findStrings>
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -9074,7 +9079,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520465040454" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520465827000" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -9405,7 +9410,7 @@
     <entry file="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.1.aar/641ce703058902ec7e39cac3e71b6579/res/values-v24/values-v24.xml" />
     <entry file="file://$PROJECT_DIR$/../node_modules/react-native-navigation/android/app/src/main/java/com/reactnativenavigation/react/JsDevReloadListenerReplacer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="57">
           <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
           <folding />
         </state>

@@ -49,6 +49,8 @@
 	<string></string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Foxwatch requires to use your microphone for video incidents.</string>
 	<key>NSMotionUsageDescription</key>
 	<string>Foxwatch waits for changes in your motion to resume location tracking.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>

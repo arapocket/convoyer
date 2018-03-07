@@ -29,8 +29,8 @@ const Item = Picker.Item;
 import Icon from 'react-native-vector-icons/Ionicons';
 import Button from 'apsl-react-native-button'
 
-// import CameraView from './CameraView'
-// import VideoView from './VideoView'
+import CameraView from './CameraView'
+import VideoView from './VideoView'
 import PatrolService from '../lib/PatrolService';
 import AuthService from '../lib/AuthService';
 import BGService from '../lib/BGService';
@@ -208,53 +208,53 @@ class IncidentView extends React.Component {
 
   onPressPhotoButton() {
 
-    // this.bgService.playSound('OPEN');
-    // this.props.navigator.showModal({
-    //   screen: "foxwatch.CameraView", // unique ID registered with Navigation.registerScreen
-    //   title: "🦊", // title of the screen as appears in the nav bar (optional)
-    //   passProps: {
-    //     onDone: (data) => {
-    //       // console.log('logging photo path from IncidentView');
-    //       // console.log(data);
+    this.bgService.playSound('OPEN');
+    this.props.navigator.showModal({
+      screen: "foxwatch.CameraView", // unique ID registered with Navigation.registerScreen
+      title: "🦊", // title of the screen as appears in the nav bar (optional)
+      passProps: {
+        onDone: (data) => {
+          // console.log('logging photo path from IncidentView');
+          // console.log(data);
 
-    //       this.patrolService.getState((state) => {
-    //         this.setState({
-    //           patrolData: state
-    //         });
+          this.patrolService.getState((state) => {
+            this.setState({
+              patrolData: state
+            });
 
-    //       });
+          });
 
-    //     }
+        }
 
-    //   }, // simple serializable object that will pass as props to the modal (optional)
-    //   animationType: 'slide-up' // 'none' / 'slide-up' , appear animation for the modal (optional, default 'slide-up')
-    // });
+      }, // simple serializable object that will pass as props to the modal (optional)
+      animationType: 'slide-up' // 'none' / 'slide-up' , appear animation for the modal (optional, default 'slide-up')
+    });
 
   }
 
   onPressVideoButton() {
 
-    // this.bgService.playSound('OPEN');
-    // this.props.navigator.showModal({
-    //   screen: "foxwatch.VideoView", // unique ID registered with Navigation.registerScreen
-    //   title: "🦊", // title of the screen as appears in the nav bar (optional)
-    //   passProps: {
-    //     onDone: (data) => {
-    //       // console.log('logging photo path from IncidentView');
-    //       // console.log(data);
+    this.bgService.playSound('OPEN');
+    this.props.navigator.showModal({
+      screen: "foxwatch.VideoView", // unique ID registered with Navigation.registerScreen
+      title: "🦊", // title of the screen as appears in the nav bar (optional)
+      passProps: {
+        onDone: (data) => {
+          // console.log('logging photo path from IncidentView');
+          // console.log(data);
 
-    //       this.patrolService.getState((state) => {
-    //         this.setState({
-    //           patrolData: state
-    //         });
+          this.patrolService.getState((state) => {
+            this.setState({
+              patrolData: state
+            });
 
-    //       });
+          });
 
-    //     }
+        }
 
-    //   }, // simple serializable object that will pass as props to the modal (optional)
-    //   animationType: 'slide-up' // 'none' / 'slide-up' , appear animation for the modal (optional, default 'slide-up')
-    // });
+      }, // simple serializable object that will pass as props to the modal (optional)
+      animationType: 'slide-up' // 'none' / 'slide-up' , appear animation for the modal (optional, default 'slide-up')
+    });
 
   }
 

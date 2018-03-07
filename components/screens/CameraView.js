@@ -61,17 +61,13 @@ class CameraView extends React.Component {
         return (
             <View style={styles.container} >
 
-                <Camera
+                <RNCamera
                     ref={(cam) => {
                         this.camera = cam;
                     }}
                     style={styles.preview}
-                    aspect={Camera.constants.Aspect.fill}
-                    mirrorImage={false}
-                    flashMode={Camera.constants.FlashMode.auto}
-                    captureTarget={Camera.constants.CaptureTarget.disk}
-                    jpegQuality = {90}
                     fixOrientation = {true}
+                    forceUpOrientation = {true}
                     
                 >
 
@@ -102,7 +98,7 @@ class CameraView extends React.Component {
 
                     </View>
 
-                </Camera>
+                </RNCamera>
 
             </View>
             
@@ -125,11 +121,11 @@ class CameraView extends React.Component {
         this.camera.takePictureAsync({ metadata: options })
             .then((data) => {
                 this.patrolService.setMediaType('photo');
-                console.log("logging path");
-                console.log(data.path);
+                console.log("logging uri");
+                console.log(data.uri);
                 // this.refs.modal.close();
                 console.log(data)
-                this.patrolService.setMediaPath(data.path);
+                this.patrolService.setMediaPath(data.uri);
                 this.patrolService.getState((state) => {
                     this.setState({
                         patrolData: state
@@ -138,7 +134,7 @@ class CameraView extends React.Component {
                     console.log(this.state.patrolData);
                 });
 
-                this.props.onDone(data.path);
+                this.props.onDone(data.uri);
 
                 this.props.navigator.dismissModal({
                     animationType: 'slide-down' // 'none' / 'slide-down' , dismiss animation for the modal (optional, default 'slide-down')

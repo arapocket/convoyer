@@ -65,18 +65,12 @@ class VideoView extends React.Component {
         return (
             <View style={styles.container} >
 
-                <Camera
+                <RNCamera
                     ref={(cam) => {
                         this.camera = cam;
                     }}
                     style={styles.preview}
-                    aspect={Camera.constants.Aspect.fill}
                     mirrorImage={false}
-                    flashMode={Camera.constants.FlashMode.auto}
-                    captureTarget={Camera.constants.CaptureTarget.disk}
-                    jpegQuality={90}
-                    fixOrientation={true}
-                    audio={true}
 
                 >
                     <Icon.Button style={styles.cancelButton}
@@ -96,7 +90,7 @@ class VideoView extends React.Component {
                         {this.captureButton()}
                     </View>
 
-                </Camera>
+                </RNCamera>
 
             </View>
 
@@ -134,7 +128,7 @@ class VideoView extends React.Component {
 
             setTimeout(() => {
                 this.setState({ isRecording: false })
-                this.camera.stopCapture();
+                this.camera.stopRecording();
                 this.props.navigator.dismissModal({
                     animationType: 'slide-down' // 'none' / 'slide-down' , dismiss animation for the modal (optional, default 'slide-down')
                 });
@@ -144,7 +138,7 @@ class VideoView extends React.Component {
                 .then((data) => {
                     this.patrolService.setMediaType('video');
 
-                    this.patrolService.setMediaPath(data.path);
+                    this.patrolService.setMediaPath(data.uri);
                     this.patrolService.getState((state) => {
                         this.setState({
                             patrolData: state
@@ -152,7 +146,7 @@ class VideoView extends React.Component {
 
                     });
 
-                    this.props.onDone(data.path);
+                    this.props.onDone(data.uri);
 
                 })
 

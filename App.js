@@ -23,8 +23,8 @@ global.BackgroundGeolocation = BackgroundGeolocation;
 import Config from './components/config';
 import HomeView from './components/screens/HomeView';
 import IncidentView from './components/screens/IncidentView';
-// import CameraView from './components/screens/CameraView';
-// import VideoView from './components/screens/VideoView';
+import CameraView from './components/screens/CameraView';
+import VideoView from './components/screens/VideoView';
 import ChatView from './components/screens/ChatView';
 import LoginView from './components/screens/LoginView';
 import OptionsView from './components/screens/OptionsView';
@@ -57,8 +57,8 @@ export default class Application extends Component {
 
 
 Navigation.registerComponent('foxwatch.HomeView', () => HomeView);
-// Navigation.registerComponent('foxwatch.CameraView', () => CameraView);
-// Navigation.registerComponent('foxwatch.VideoView', () => VideoView);
+Navigation.registerComponent('foxwatch.CameraView', () => CameraView);
+Navigation.registerComponent('foxwatch.VideoView', () => VideoView);
 Navigation.registerComponent('foxwatch.IncidentView', () => IncidentView);
 Navigation.registerComponent('foxwatch.ChatView', () => ChatView);
 Navigation.registerComponent('foxwatch.LoginView', () => LoginView);

@@ -4,7 +4,7 @@
             "outputFile": "/Users/Pocket/convoyer/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/Pocket/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/8851aaef9c2de855900cff4114d29460/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/Pocket/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/9c42b66bbc55e88a0e46df6847852a4f/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/Pocket/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/97c365655098c6d61a593382851825da/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/Pocket/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/aa3b8cb9ce3380b96dbec9f37488b4c1/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

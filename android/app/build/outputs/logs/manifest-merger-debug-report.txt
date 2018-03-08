@@ -22,8 +22,8 @@ INJECTED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:1:
 INJECTED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:1:1-72:12
 INJECTED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:1:1-72:12
 MERGED from [:react-native-camera] /Users/Pocket/convoyer/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-20:12
-MERGED from [com.google.android.gms:play-services-vision:10.2.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-vision-10.2.0.aar/a348943387a57f9dd71138bf5827a292/AndroidManifest.xml:2:1-5:12
-MERGED from [com.android.support:exifinterface:26.0.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/exifinterface-26.0.1.aar/75c8078180b1537518b39e0ac2484ef8/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-vision:10.2.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-vision-10.2.0.aar/472fb39f6c3ca03a697f11683dfdb3fe/AndroidManifest.xml:2:1-5:12
+MERGED from [com.android.support:exifinterface:26.0.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/exifinterface-26.0.1.aar/0ad0308a1bfe548c5884eb2c0b5dee9b/AndroidManifest.xml:17:1-28:12
 MERGED from [:react-native-video] /Users/Pocket/convoyer/node_modules/react-native-video/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-push-notification] /Users/Pocket/convoyer/node_modules/react-native-push-notification/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-device-info] /Users/Pocket/convoyer/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
@@ -32,49 +32,49 @@ MERGED from [:react-native-vector-icons] /Users/Pocket/convoyer/node_modules/rea
 MERGED from [:react-native-background-geolocation] /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-16:12
 MERGED from [:react-native-maps] /Users/Pocket/convoyer/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [:react-native-navigation] /Users/Pocket/convoyer/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-20:12
-MERGED from [com.facebook.react:react-native:0.52.2] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/react-native-0.52.2.aar/847f0268577b199648c35e259624d144/AndroidManifest.xml:2:1-15:12
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/7c488a072faba1180c3a3ffe5a04fd76/AndroidManifest.xml:2:1-14:12
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/05d8c03dd56ed14e2024a37ff1b49d33/AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:design:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/8851aaef9c2de855900cff4114d29460/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/97c365655098c6d61a593382851825da/AndroidManifest.xml:17:1-31:12
-MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:2:1-52:12
-MERGED from [com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/cameraview-d5d9b0d925494ef451ce3eef3fdf14cc874d9baa.aar/aeaca0c364a137223d5755bce53a6ea4/AndroidManifest.xml:14:1-30:12
-MERGED from [com.google.android.gms:play-services-gcm:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.8.0.aar/e2cbdf333e06389b379319576e90ab64/AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-location:11.6.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-location-11.6.0.aar/cca3ebbcf9dc8130ba7bd9fae4a9dd9b/AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/6f8d2e19e6f143de9ca3fa78c0065052/AndroidManifest.xml:16:1-25:12
-MERGED from [com.google.android.gms:play-services-iid:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.8.0.aar/2defe2989dce1566d12c7b08fc000894/AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/8a4587204cffcef49690dabc42d6ad0b/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/babde932fe89f2287031f1a4e8fcab7d/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/cd5985dcb49c4f7baf694044d1c50e1c/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/954f32486572089123d803e404dae1ef/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/7395944ea3963d5da59d38097f28331d/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:transition:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/85d2d1a414689fae6ea64ce6d49eb473/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/22633d29f623db7a23bb524c7ec56e19/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/deb388d12a2a1bbf8e178d238f133359/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/9cf5c89baa27e7e92a40b9c403aa2146/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/33b1462902992d3ec531c118b7daf519/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/a2b0f1389778209bc903a7ff12c9f3c6/AndroidManifest.xml:17:1-26:12
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/eb707569ae81f68ccc2aea2262f399ad/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/2a4514a514eddcf658a835bcd925f1d6/AndroidManifest.xml:17:1-31:12
-MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/android-scalablevideoview-1.0.4.aar/c9214e6b50f3aef976d93234247e9731/AndroidManifest.xml:2:1-12:12
-MERGED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:2:1-41:12
-MERGED from [com.github.ybq:Android-SpinKit:1.1.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/Android-SpinKit-1.1.0.aar/4d705d61400b34411c179a577ffc21da/AndroidManifest.xml:2:1-10:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/c2de461db40b5f197b16db0e0a66dd03/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/e3ffd0061485e9715bb0746c19b3b901/AndroidManifest.xml:10:1-18:12
-MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/727fb609ff46c5f77d6492c6f877cc32/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/dbadd262933d85b2c80a37e5facf3b7e/AndroidManifest.xml:1:1-4:12
-MERGED from [org.webkit:android-jsc:r174650] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/bfdd03aa08ea07669cd363e2c1181f16/AndroidManifest.xml:1:1-3:12
-MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-11.8.0.aar/a0ae502ef8e1af980770b6ded95c901f/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-location-license:11.6.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.6.0.aar/58b0a22a93c870663e6bfe22ac4903c6/AndroidManifest.xml:2:1-6:12
-MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/33019b0472413b50182a2fb87012b71b/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/bae35dd552ed763917351eaf11eff6da/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/836be67e97749e78d2ea9c2800c642a2/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/cab2a797ad3b18fc50e840195b89c2b0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/bbfe6c13d929920117b9ecebff859482/AndroidManifest.xml:2:1-14:12
-MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-11.8.0.aar/c37320516d602801a787aa3dd1480702/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/1dea3640f06774eeca15db3c9cd53f9b/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/a50bd3cc56af747845a0f4c12234d5c5/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/d8afd798d4dc2e79e146873bb72dac3c/AndroidManifest.xml:2:1-6:12
+MERGED from [com.facebook.react:react-native:0.52.2] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/react-native-0.52.2.aar/03177b95a452bc8a3d13bb9a0f108fcb/AndroidManifest.xml:2:1-15:12
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/a3bc1c7c3e6fd9320bd5b673020c22ab/AndroidManifest.xml:2:1-14:12
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/4286862254add8d39f063eecea5f2a83/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/9c42b66bbc55e88a0e46df6847852a4f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/aa3b8cb9ce3380b96dbec9f37488b4c1/AndroidManifest.xml:17:1-31:12
+MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:2:1-52:12
+MERGED from [com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/cameraview-d5d9b0d925494ef451ce3eef3fdf14cc874d9baa.aar/a7c0f0bd96b9b36594509ba0c2f5ddb3/AndroidManifest.xml:14:1-30:12
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.8.0.aar/3b3d4ffeea731e6616080d860af08712/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-location:11.6.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-location-11.6.0.aar/c0c558241de3c11bdd71aee684ca5d89/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/675768287af3211be8bc966ee0705db9/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.8.0.aar/d47fe59d6b7a7aeef56586c4bea23afb/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/0ab5b0b6dc32f90aff4a68bf1ce12848/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/be89970c9f4fa6905f1ac4fc8fa38edc/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/a867153b21f73b62bd333c930307c2a9/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/41c1a0072fbb6639953cd5782ca0520d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/d5685b9cf5902957bafa2f48d5be47da/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/23855636b4e2516e66f42637f413a266/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/b96e3cecc7744c0ff1947c7d3c9d2acb/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8fd406482834da1eef7dce7a6f350691/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/d5a3bfa9810666d67e6c76c0263b2c37/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/03745ff001e3f47b39e908f3eb1465ec/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/edd4f88d51f65c4bb5abdd43a3d3af1f/AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/bc148bc962275fb0fbca04a0f1e5a448/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/0f8e3847d37f48234e167315f4375853/AndroidManifest.xml:17:1-31:12
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/android-scalablevideoview-1.0.4.aar/615c452c8db841faba062ffde0a22ffe/AndroidManifest.xml:2:1-12:12
+MERGED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:2:1-41:12
+MERGED from [com.github.ybq:Android-SpinKit:1.1.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/Android-SpinKit-1.1.0.aar/6abb6c41f26fdbfee2afcda926ca44b4/AndroidManifest.xml:2:1-10:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/93bca3190ad7cd32bf244c5993954568/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/c7c76617e68953944fa003ee63b27b98/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/4e5022c7ad020fc1a1f3fca662f399d0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/f72aacbaf2bbd0035778ae9f10c0b182/AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/f5d4148b290b02ea47a3addf4974d504/AndroidManifest.xml:1:1-3:12
+MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-11.8.0.aar/22d9378ec9b18eb871c9fa9ab387d70a/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-location-license:11.6.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.6.0.aar/7c437bb3f9626dbe386f2accabbc4025/AndroidManifest.xml:2:1-6:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/11f2594de49a15990f845511b360c076/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/33af91b4a167e0f0b3a5b1b0f3122192/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/5e0b0f71614d5f42f4b7519c79799d99/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/e511f4d9c8fab5b7ee11a578f83ce906/AndroidManifest.xml:2:1-9:12
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/285c5617793b14e1812677a3adb8ef69/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-11.8.0.aar/fce0e5e83ca318b54ab36981af4e0c07/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/5ada34cd675116df17697da1d32fe577/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/c51d40c477225c53bff9b958e9081878/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/2fcccc8704b79803987b6f6a26cbb9f9/AndroidManifest.xml:2:1-6:12
 INJECTED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:1:1-72:12
 INJECTED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:1:1-72:12
 INJECTED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:1:1-72:12
@@ -98,28 +98,28 @@ uses-permission#android.permission.CAMERA
 ADDED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:7:5-65
 MERGED from [:react-native-camera] /Users/Pocket/convoyer/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-65
 MERGED from [:react-native-camera] /Users/Pocket/convoyer/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-65
-MERGED from [com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/cameraview-d5d9b0d925494ef451ce3eef3fdf14cc874d9baa.aar/aeaca0c364a137223d5755bce53a6ea4/AndroidManifest.xml:21:5-65
-MERGED from [com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/cameraview-d5d9b0d925494ef451ce3eef3fdf14cc874d9baa.aar/aeaca0c364a137223d5755bce53a6ea4/AndroidManifest.xml:21:5-65
+MERGED from [com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/cameraview-d5d9b0d925494ef451ce3eef3fdf14cc874d9baa.aar/a7c0f0bd96b9b36594509ba0c2f5ddb3/AndroidManifest.xml:21:5-65
+MERGED from [com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/cameraview-d5d9b0d925494ef451ce3eef3fdf14cc874d9baa.aar/a7c0f0bd96b9b36594509ba0c2f5ddb3/AndroidManifest.xml:21:5-65
 	android:name
 		ADDED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:7:22-62
 uses-permission#android.permission.INTERNET
 ADDED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:8:5-67
 MERGED from [:react-native-maps] /Users/Pocket/convoyer/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-67
 MERGED from [:react-native-maps] /Users/Pocket/convoyer/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-67
-MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:15:5-67
-MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:15:5-67
-MERGED from [com.google.android.gms:play-services-gcm:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.8.0.aar/e2cbdf333e06389b379319576e90ab64/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-gcm:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.8.0.aar/e2cbdf333e06389b379319576e90ab64/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/6f8d2e19e6f143de9ca3fa78c0065052/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/6f8d2e19e6f143de9ca3fa78c0065052/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-iid:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.8.0.aar/2defe2989dce1566d12c7b08fc000894/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-iid:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.8.0.aar/2defe2989dce1566d12c7b08fc000894/AndroidManifest.xml:24:5-67
+MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:15:5-67
+MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:15:5-67
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.8.0.aar/3b3d4ffeea731e6616080d860af08712/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.8.0.aar/3b3d4ffeea731e6616080d860af08712/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/675768287af3211be8bc966ee0705db9/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/675768287af3211be8bc966ee0705db9/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.8.0.aar/d47fe59d6b7a7aeef56586c4bea23afb/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.8.0.aar/d47fe59d6b7a7aeef56586c4bea23afb/AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:8:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:9:5-77
-MERGED from [com.facebook.react:react-native:0.52.2] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/react-native-0.52.2.aar/847f0268577b199648c35e259624d144/AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.52.2] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/react-native-0.52.2.aar/847f0268577b199648c35e259624d144/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.52.2] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/react-native-0.52.2.aar/03177b95a452bc8a3d13bb9a0f108fcb/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.52.2] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/react-native-0.52.2.aar/03177b95a452bc8a3d13bb9a0f108fcb/AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:9:22-75
 uses-permission#android.permission.RECORD_AUDIO
@@ -140,8 +140,8 @@ ADDED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:13:5-
 		ADDED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:13:22-78
 uses-permission#android.permission.WAKE_LOCK
 ADDED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:14:5-68
-MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:16:5-68
-MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:16:5-68
+MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:16:5-68
+MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:16:5-68
 	android:name
 		ADDED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:14:22-65
 uses-permission#android.permission.VIBRATE
@@ -150,8 +150,8 @@ ADDED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:19:5-
 		ADDED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:19:22-63
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
 ADDED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:20:5-80
-MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:18:5-81
-MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:18:5-81
+MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:18:5-81
+MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:18:5-81
 	android:name
 		ADDED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:20:22-78
 uses-sdk
@@ -160,10 +160,10 @@ INJECTED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:22
 INJECTED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:22:5-24:41
 MERGED from [:react-native-camera] /Users/Pocket/convoyer/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-camera] /Users/Pocket/convoyer/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-vision:10.2.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-vision-10.2.0.aar/a348943387a57f9dd71138bf5827a292/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-vision:10.2.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-vision-10.2.0.aar/a348943387a57f9dd71138bf5827a292/AndroidManifest.xml:3:5-43
-MERGED from [com.android.support:exifinterface:26.0.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/exifinterface-26.0.1.aar/75c8078180b1537518b39e0ac2484ef8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:exifinterface:26.0.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/exifinterface-26.0.1.aar/75c8078180b1537518b39e0ac2484ef8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision:10.2.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-vision-10.2.0.aar/472fb39f6c3ca03a697f11683dfdb3fe/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision:10.2.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-vision-10.2.0.aar/472fb39f6c3ca03a697f11683dfdb3fe/AndroidManifest.xml:3:5-43
+MERGED from [com.android.support:exifinterface:26.0.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/exifinterface-26.0.1.aar/0ad0308a1bfe548c5884eb2c0b5dee9b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:26.0.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/exifinterface-26.0.1.aar/0ad0308a1bfe548c5884eb2c0b5dee9b/AndroidManifest.xml:20:5-44
 MERGED from [:react-native-video] /Users/Pocket/convoyer/node_modules/react-native-video/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-video] /Users/Pocket/convoyer/node_modules/react-native-video/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-push-notification] /Users/Pocket/convoyer/node_modules/react-native-push-notification/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
@@ -180,94 +180,94 @@ MERGED from [:react-native-maps] /Users/Pocket/convoyer/node_modules/react-nativ
 MERGED from [:react-native-maps] /Users/Pocket/convoyer/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-navigation] /Users/Pocket/convoyer/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-navigation] /Users/Pocket/convoyer/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.52.2] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/react-native-0.52.2.aar/847f0268577b199648c35e259624d144/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.52.2] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/react-native-0.52.2.aar/847f0268577b199648c35e259624d144/AndroidManifest.xml:7:5-9:41
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/7c488a072faba1180c3a3ffe5a04fd76/AndroidManifest.xml:8:5-10:41
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/7c488a072faba1180c3a3ffe5a04fd76/AndroidManifest.xml:8:5-10:41
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/05d8c03dd56ed14e2024a37ff1b49d33/AndroidManifest.xml:7:5-9:41
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/05d8c03dd56ed14e2024a37ff1b49d33/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/8851aaef9c2de855900cff4114d29460/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/8851aaef9c2de855900cff4114d29460/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/97c365655098c6d61a593382851825da/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/97c365655098c6d61a593382851825da/AndroidManifest.xml:21:5-23:78
-MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:7:5-9:41
-MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/cameraview-d5d9b0d925494ef451ce3eef3fdf14cc874d9baa.aar/aeaca0c364a137223d5755bce53a6ea4/AndroidManifest.xml:17:5-19:41
-MERGED from [com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/cameraview-d5d9b0d925494ef451ce3eef3fdf14cc874d9baa.aar/aeaca0c364a137223d5755bce53a6ea4/AndroidManifest.xml:17:5-19:41
-MERGED from [com.google.android.gms:play-services-gcm:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.8.0.aar/e2cbdf333e06389b379319576e90ab64/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-gcm:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.8.0.aar/e2cbdf333e06389b379319576e90ab64/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location:11.6.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-location-11.6.0.aar/cca3ebbcf9dc8130ba7bd9fae4a9dd9b/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-location:11.6.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-location-11.6.0.aar/cca3ebbcf9dc8130ba7bd9fae4a9dd9b/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/6f8d2e19e6f143de9ca3fa78c0065052/AndroidManifest.xml:23:5-43
-MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/6f8d2e19e6f143de9ca3fa78c0065052/AndroidManifest.xml:23:5-43
-MERGED from [com.google.android.gms:play-services-iid:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.8.0.aar/2defe2989dce1566d12c7b08fc000894/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-iid:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.8.0.aar/2defe2989dce1566d12c7b08fc000894/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/8a4587204cffcef49690dabc42d6ad0b/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/8a4587204cffcef49690dabc42d6ad0b/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/babde932fe89f2287031f1a4e8fcab7d/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/babde932fe89f2287031f1a4e8fcab7d/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/cd5985dcb49c4f7baf694044d1c50e1c/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/cd5985dcb49c4f7baf694044d1c50e1c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/954f32486572089123d803e404dae1ef/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/954f32486572089123d803e404dae1ef/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/7395944ea3963d5da59d38097f28331d/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/7395944ea3963d5da59d38097f28331d/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/85d2d1a414689fae6ea64ce6d49eb473/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/85d2d1a414689fae6ea64ce6d49eb473/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/22633d29f623db7a23bb524c7ec56e19/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/22633d29f623db7a23bb524c7ec56e19/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/deb388d12a2a1bbf8e178d238f133359/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/deb388d12a2a1bbf8e178d238f133359/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/9cf5c89baa27e7e92a40b9c403aa2146/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/9cf5c89baa27e7e92a40b9c403aa2146/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/33b1462902992d3ec531c118b7daf519/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/33b1462902992d3ec531c118b7daf519/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/a2b0f1389778209bc903a7ff12c9f3c6/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/a2b0f1389778209bc903a7ff12c9f3c6/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/eb707569ae81f68ccc2aea2262f399ad/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/eb707569ae81f68ccc2aea2262f399ad/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/2a4514a514eddcf658a835bcd925f1d6/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/2a4514a514eddcf658a835bcd925f1d6/AndroidManifest.xml:21:5-23:58
-MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/android-scalablevideoview-1.0.4.aar/c9214e6b50f3aef976d93234247e9731/AndroidManifest.xml:8:5-10:41
-MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/android-scalablevideoview-1.0.4.aar/c9214e6b50f3aef976d93234247e9731/AndroidManifest.xml:8:5-10:41
-MERGED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:7:5-9:41
-MERGED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.ybq:Android-SpinKit:1.1.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/Android-SpinKit-1.1.0.aar/4d705d61400b34411c179a577ffc21da/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.ybq:Android-SpinKit:1.1.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/Android-SpinKit-1.1.0.aar/4d705d61400b34411c179a577ffc21da/AndroidManifest.xml:6:5-8:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/c2de461db40b5f197b16db0e0a66dd03/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/c2de461db40b5f197b16db0e0a66dd03/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/e3ffd0061485e9715bb0746c19b3b901/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/e3ffd0061485e9715bb0746c19b3b901/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/727fb609ff46c5f77d6492c6f877cc32/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/727fb609ff46c5f77d6492c6f877cc32/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/dbadd262933d85b2c80a37e5facf3b7e/AndroidManifest.xml:2:3-70
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/dbadd262933d85b2c80a37e5facf3b7e/AndroidManifest.xml:2:3-70
-MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-11.8.0.aar/a0ae502ef8e1af980770b6ded95c901f/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-11.8.0.aar/a0ae502ef8e1af980770b6ded95c901f/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-location-license:11.6.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.6.0.aar/58b0a22a93c870663e6bfe22ac4903c6/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-location-license:11.6.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.6.0.aar/58b0a22a93c870663e6bfe22ac4903c6/AndroidManifest.xml:4:5-43
-MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/33019b0472413b50182a2fb87012b71b/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/33019b0472413b50182a2fb87012b71b/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/bae35dd552ed763917351eaf11eff6da/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/bae35dd552ed763917351eaf11eff6da/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/836be67e97749e78d2ea9c2800c642a2/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/836be67e97749e78d2ea9c2800c642a2/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/cab2a797ad3b18fc50e840195b89c2b0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/cab2a797ad3b18fc50e840195b89c2b0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/bbfe6c13d929920117b9ecebff859482/AndroidManifest.xml:8:5-10:41
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/bbfe6c13d929920117b9ecebff859482/AndroidManifest.xml:8:5-10:41
-MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-11.8.0.aar/c37320516d602801a787aa3dd1480702/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-11.8.0.aar/c37320516d602801a787aa3dd1480702/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/1dea3640f06774eeca15db3c9cd53f9b/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/1dea3640f06774eeca15db3c9cd53f9b/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/a50bd3cc56af747845a0f4c12234d5c5/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/a50bd3cc56af747845a0f4c12234d5c5/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/d8afd798d4dc2e79e146873bb72dac3c/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/d8afd798d4dc2e79e146873bb72dac3c/AndroidManifest.xml:4:5-43
+MERGED from [com.facebook.react:react-native:0.52.2] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/react-native-0.52.2.aar/03177b95a452bc8a3d13bb9a0f108fcb/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.52.2] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/react-native-0.52.2.aar/03177b95a452bc8a3d13bb9a0f108fcb/AndroidManifest.xml:7:5-9:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/a3bc1c7c3e6fd9320bd5b673020c22ab/AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/a3bc1c7c3e6fd9320bd5b673020c22ab/AndroidManifest.xml:8:5-10:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/4286862254add8d39f063eecea5f2a83/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/4286862254add8d39f063eecea5f2a83/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/9c42b66bbc55e88a0e46df6847852a4f/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/9c42b66bbc55e88a0e46df6847852a4f/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/aa3b8cb9ce3380b96dbec9f37488b4c1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/aa3b8cb9ce3380b96dbec9f37488b4c1/AndroidManifest.xml:21:5-23:78
+MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:7:5-9:41
+MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/cameraview-d5d9b0d925494ef451ce3eef3fdf14cc874d9baa.aar/a7c0f0bd96b9b36594509ba0c2f5ddb3/AndroidManifest.xml:17:5-19:41
+MERGED from [com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/cameraview-d5d9b0d925494ef451ce3eef3fdf14cc874d9baa.aar/a7c0f0bd96b9b36594509ba0c2f5ddb3/AndroidManifest.xml:17:5-19:41
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.8.0.aar/3b3d4ffeea731e6616080d860af08712/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.8.0.aar/3b3d4ffeea731e6616080d860af08712/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:11.6.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-location-11.6.0.aar/c0c558241de3c11bdd71aee684ca5d89/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.6.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-location-11.6.0.aar/c0c558241de3c11bdd71aee684ca5d89/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/675768287af3211be8bc966ee0705db9/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/675768287af3211be8bc966ee0705db9/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.8.0.aar/d47fe59d6b7a7aeef56586c4bea23afb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.8.0.aar/d47fe59d6b7a7aeef56586c4bea23afb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/0ab5b0b6dc32f90aff4a68bf1ce12848/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/0ab5b0b6dc32f90aff4a68bf1ce12848/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/be89970c9f4fa6905f1ac4fc8fa38edc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/be89970c9f4fa6905f1ac4fc8fa38edc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/a867153b21f73b62bd333c930307c2a9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/a867153b21f73b62bd333c930307c2a9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/41c1a0072fbb6639953cd5782ca0520d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/41c1a0072fbb6639953cd5782ca0520d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/d5685b9cf5902957bafa2f48d5be47da/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/d5685b9cf5902957bafa2f48d5be47da/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/23855636b4e2516e66f42637f413a266/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/23855636b4e2516e66f42637f413a266/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/b96e3cecc7744c0ff1947c7d3c9d2acb/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/b96e3cecc7744c0ff1947c7d3c9d2acb/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8fd406482834da1eef7dce7a6f350691/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8fd406482834da1eef7dce7a6f350691/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/d5a3bfa9810666d67e6c76c0263b2c37/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/d5a3bfa9810666d67e6c76c0263b2c37/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/03745ff001e3f47b39e908f3eb1465ec/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/03745ff001e3f47b39e908f3eb1465ec/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/edd4f88d51f65c4bb5abdd43a3d3af1f/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/edd4f88d51f65c4bb5abdd43a3d3af1f/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/bc148bc962275fb0fbca04a0f1e5a448/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/bc148bc962275fb0fbca04a0f1e5a448/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/0f8e3847d37f48234e167315f4375853/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/0f8e3847d37f48234e167315f4375853/AndroidManifest.xml:21:5-23:58
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/android-scalablevideoview-1.0.4.aar/615c452c8db841faba062ffde0a22ffe/AndroidManifest.xml:8:5-10:41
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/android-scalablevideoview-1.0.4.aar/615c452c8db841faba062ffde0a22ffe/AndroidManifest.xml:8:5-10:41
+MERGED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ybq:Android-SpinKit:1.1.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/Android-SpinKit-1.1.0.aar/6abb6c41f26fdbfee2afcda926ca44b4/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.ybq:Android-SpinKit:1.1.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/Android-SpinKit-1.1.0.aar/6abb6c41f26fdbfee2afcda926ca44b4/AndroidManifest.xml:6:5-8:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/93bca3190ad7cd32bf244c5993954568/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/93bca3190ad7cd32bf244c5993954568/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/c7c76617e68953944fa003ee63b27b98/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/c7c76617e68953944fa003ee63b27b98/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/4e5022c7ad020fc1a1f3fca662f399d0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/4e5022c7ad020fc1a1f3fca662f399d0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/f72aacbaf2bbd0035778ae9f10c0b182/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/f72aacbaf2bbd0035778ae9f10c0b182/AndroidManifest.xml:2:3-70
+MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-11.8.0.aar/22d9378ec9b18eb871c9fa9ab387d70a/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-11.8.0.aar/22d9378ec9b18eb871c9fa9ab387d70a/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.6.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.6.0.aar/7c437bb3f9626dbe386f2accabbc4025/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.6.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.6.0.aar/7c437bb3f9626dbe386f2accabbc4025/AndroidManifest.xml:4:5-43
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/11f2594de49a15990f845511b360c076/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/11f2594de49a15990f845511b360c076/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/33af91b4a167e0f0b3a5b1b0f3122192/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/33af91b4a167e0f0b3a5b1b0f3122192/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/5e0b0f71614d5f42f4b7519c79799d99/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/5e0b0f71614d5f42f4b7519c79799d99/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/e511f4d9c8fab5b7ee11a578f83ce906/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/e511f4d9c8fab5b7ee11a578f83ce906/AndroidManifest.xml:5:5-7:41
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/285c5617793b14e1812677a3adb8ef69/AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/285c5617793b14e1812677a3adb8ef69/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-11.8.0.aar/fce0e5e83ca318b54ab36981af4e0c07/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-11.8.0.aar/fce0e5e83ca318b54ab36981af4e0c07/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/5ada34cd675116df17697da1d32fe577/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/5ada34cd675116df17697da1d32fe577/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/c51d40c477225c53bff9b958e9081878/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/c51d40c477225c53bff9b958e9081878/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/2fcccc8704b79803987b6f6a26cbb9f9/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/2fcccc8704b79803987b6f6a26cbb9f9/AndroidManifest.xml:4:5-43
 INJECTED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:22:5-24:41
 INJECTED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:22:5-24:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/8851aaef9c2de855900cff4114d29460/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/9c42b66bbc55e88a0e46df6847852a4f/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		ADDED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:24:9-38
 		INJECTED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml
@@ -278,43 +278,43 @@ INJECTED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:22
 		INJECTED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml
 application
 ADDED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:26:5-70:19
-REJECTED from [com.google.android.gms:play-services-vision:10.2.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-vision-10.2.0.aar/a348943387a57f9dd71138bf5827a292/AndroidManifest.xml:4:5-19
-REJECTED from [com.android.support:exifinterface:26.0.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/exifinterface-26.0.1.aar/75c8078180b1537518b39e0ac2484ef8/AndroidManifest.xml:22:5-26:19
+REJECTED from [com.google.android.gms:play-services-vision:10.2.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-vision-10.2.0.aar/472fb39f6c3ca03a697f11683dfdb3fe/AndroidManifest.xml:4:5-19
+REJECTED from [com.android.support:exifinterface:26.0.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/exifinterface-26.0.1.aar/0ad0308a1bfe548c5884eb2c0b5dee9b/AndroidManifest.xml:22:5-26:19
 REJECTED from [:react-native-spinkit] /Users/Pocket/convoyer/node_modules/react-native-spinkit/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-14:19
 REJECTED from [:react-native-background-geolocation] /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-14:19
 REJECTED from [:react-native-navigation] /Users/Pocket/convoyer/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-18:19
-REJECTED from [com.facebook.react:react-native:0.52.2] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/react-native-0.52.2.aar/847f0268577b199648c35e259624d144/AndroidManifest.xml:13:5-20
-REJECTED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/7c488a072faba1180c3a3ffe5a04fd76/AndroidManifest.xml:12:5-20
-REJECTED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/05d8c03dd56ed14e2024a37ff1b49d33/AndroidManifest.xml:11:5-20
-REJECTED from [com.android.support:design:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/8851aaef9c2de855900cff4114d29460/AndroidManifest.xml:29:5-20
-REJECTED from [com.android.support:appcompat-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/97c365655098c6d61a593382851825da/AndroidManifest.xml:29:5-20
-REJECTED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:25:5-50:19
-REJECTED from [com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/cameraview-d5d9b0d925494ef451ce3eef3fdf14cc874d9baa.aar/aeaca0c364a137223d5755bce53a6ea4/AndroidManifest.xml:28:5-20
-REJECTED from [com.google.android.gms:play-services-gcm:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.8.0.aar/e2cbdf333e06389b379319576e90ab64/AndroidManifest.xml:26:5-20
-REJECTED from [com.google.android.gms:play-services-location:11.6.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-location-11.6.0.aar/cca3ebbcf9dc8130ba7bd9fae4a9dd9b/AndroidManifest.xml:4:5-19
-REJECTED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/6f8d2e19e6f143de9ca3fa78c0065052/AndroidManifest.xml:24:5-19
-REJECTED from [com.google.android.gms:play-services-iid:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.8.0.aar/2defe2989dce1566d12c7b08fc000894/AndroidManifest.xml:26:5-20
-REJECTED from [com.google.android.gms:play-services-base:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/8a4587204cffcef49690dabc42d6ad0b/AndroidManifest.xml:22:5-27:19
-REJECTED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/babde932fe89f2287031f1a4e8fcab7d/AndroidManifest.xml:7:5-20
-REJECTED from [com.google.android.gms:play-services-basement:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/cd5985dcb49c4f7baf694044d1c50e1c/AndroidManifest.xml:22:5-26:19
-REJECTED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/954f32486572089123d803e404dae1ef/AndroidManifest.xml:26:5-20
-REJECTED from [com.android.support:support-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/7395944ea3963d5da59d38097f28331d/AndroidManifest.xml:26:5-20
-REJECTED from [com.android.support:transition:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/85d2d1a414689fae6ea64ce6d49eb473/AndroidManifest.xml:26:5-20
-REJECTED from [com.android.support:support-v4:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/22633d29f623db7a23bb524c7ec56e19/AndroidManifest.xml:29:5-20
-REJECTED from [com.android.support:support-fragment:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/deb388d12a2a1bbf8e178d238f133359/AndroidManifest.xml:29:5-20
-REJECTED from [com.android.support:support-media-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/9cf5c89baa27e7e92a40b9c403aa2146/AndroidManifest.xml:29:5-20
-REJECTED from [com.android.support:support-core-utils:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/33b1462902992d3ec531c118b7daf519/AndroidManifest.xml:29:5-20
-REJECTED from [com.android.support:support-core-ui:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/eb707569ae81f68ccc2aea2262f399ad/AndroidManifest.xml:29:5-20
-REJECTED from [com.android.support:support-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/2a4514a514eddcf658a835bcd925f1d6/AndroidManifest.xml:29:5-20
-REJECTED from [com.facebook.soloader:soloader:0.1.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/dbadd262933d85b2c80a37e5facf3b7e/AndroidManifest.xml:3:3-17
-REJECTED from [org.webkit:android-jsc:r174650] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/bfdd03aa08ea07669cd363e2c1181f16/AndroidManifest.xml:2:3-17
-REJECTED from [com.google.android.gms:play-services-gcm-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-11.8.0.aar/a0ae502ef8e1af980770b6ded95c901f/AndroidManifest.xml:5:5-20
-REJECTED from [com.google.android.gms:play-services-location-license:11.6.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.6.0.aar/58b0a22a93c870663e6bfe22ac4903c6/AndroidManifest.xml:5:5-20
-REJECTED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/bbfe6c13d929920117b9ecebff859482/AndroidManifest.xml:12:5-20
-REJECTED from [com.google.android.gms:play-services-iid-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-11.8.0.aar/c37320516d602801a787aa3dd1480702/AndroidManifest.xml:5:5-20
-REJECTED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/1dea3640f06774eeca15db3c9cd53f9b/AndroidManifest.xml:5:5-20
-REJECTED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/a50bd3cc56af747845a0f4c12234d5c5/AndroidManifest.xml:5:5-20
-REJECTED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/d8afd798d4dc2e79e146873bb72dac3c/AndroidManifest.xml:5:5-20
+REJECTED from [com.facebook.react:react-native:0.52.2] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/react-native-0.52.2.aar/03177b95a452bc8a3d13bb9a0f108fcb/AndroidManifest.xml:13:5-20
+REJECTED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/a3bc1c7c3e6fd9320bd5b673020c22ab/AndroidManifest.xml:12:5-20
+REJECTED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/4286862254add8d39f063eecea5f2a83/AndroidManifest.xml:11:5-20
+REJECTED from [com.android.support:design:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/9c42b66bbc55e88a0e46df6847852a4f/AndroidManifest.xml:29:5-20
+REJECTED from [com.android.support:appcompat-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/aa3b8cb9ce3380b96dbec9f37488b4c1/AndroidManifest.xml:29:5-20
+REJECTED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:25:5-50:19
+REJECTED from [com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/cameraview-d5d9b0d925494ef451ce3eef3fdf14cc874d9baa.aar/a7c0f0bd96b9b36594509ba0c2f5ddb3/AndroidManifest.xml:28:5-20
+REJECTED from [com.google.android.gms:play-services-gcm:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.8.0.aar/3b3d4ffeea731e6616080d860af08712/AndroidManifest.xml:26:5-20
+REJECTED from [com.google.android.gms:play-services-location:11.6.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-location-11.6.0.aar/c0c558241de3c11bdd71aee684ca5d89/AndroidManifest.xml:4:5-19
+REJECTED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/675768287af3211be8bc966ee0705db9/AndroidManifest.xml:24:5-19
+REJECTED from [com.google.android.gms:play-services-iid:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.8.0.aar/d47fe59d6b7a7aeef56586c4bea23afb/AndroidManifest.xml:26:5-20
+REJECTED from [com.google.android.gms:play-services-base:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/0ab5b0b6dc32f90aff4a68bf1ce12848/AndroidManifest.xml:22:5-27:19
+REJECTED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/be89970c9f4fa6905f1ac4fc8fa38edc/AndroidManifest.xml:7:5-20
+REJECTED from [com.google.android.gms:play-services-basement:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/a867153b21f73b62bd333c930307c2a9/AndroidManifest.xml:22:5-26:19
+REJECTED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/41c1a0072fbb6639953cd5782ca0520d/AndroidManifest.xml:26:5-20
+REJECTED from [com.android.support:support-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/d5685b9cf5902957bafa2f48d5be47da/AndroidManifest.xml:26:5-20
+REJECTED from [com.android.support:transition:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/23855636b4e2516e66f42637f413a266/AndroidManifest.xml:26:5-20
+REJECTED from [com.android.support:support-v4:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/b96e3cecc7744c0ff1947c7d3c9d2acb/AndroidManifest.xml:29:5-20
+REJECTED from [com.android.support:support-fragment:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8fd406482834da1eef7dce7a6f350691/AndroidManifest.xml:29:5-20
+REJECTED from [com.android.support:support-media-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/d5a3bfa9810666d67e6c76c0263b2c37/AndroidManifest.xml:29:5-20
+REJECTED from [com.android.support:support-core-utils:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/03745ff001e3f47b39e908f3eb1465ec/AndroidManifest.xml:29:5-20
+REJECTED from [com.android.support:support-core-ui:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/bc148bc962275fb0fbca04a0f1e5a448/AndroidManifest.xml:29:5-20
+REJECTED from [com.android.support:support-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/0f8e3847d37f48234e167315f4375853/AndroidManifest.xml:29:5-20
+REJECTED from [com.facebook.soloader:soloader:0.1.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/f72aacbaf2bbd0035778ae9f10c0b182/AndroidManifest.xml:3:3-17
+REJECTED from [org.webkit:android-jsc:r174650] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/f5d4148b290b02ea47a3addf4974d504/AndroidManifest.xml:2:3-17
+REJECTED from [com.google.android.gms:play-services-gcm-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-11.8.0.aar/22d9378ec9b18eb871c9fa9ab387d70a/AndroidManifest.xml:5:5-20
+REJECTED from [com.google.android.gms:play-services-location-license:11.6.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.6.0.aar/7c437bb3f9626dbe386f2accabbc4025/AndroidManifest.xml:5:5-20
+REJECTED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/285c5617793b14e1812677a3adb8ef69/AndroidManifest.xml:12:5-20
+REJECTED from [com.google.android.gms:play-services-iid-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-11.8.0.aar/fce0e5e83ca318b54ab36981af4e0c07/AndroidManifest.xml:5:5-20
+REJECTED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/5ada34cd675116df17697da1d32fe577/AndroidManifest.xml:5:5-20
+REJECTED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/c51d40c477225c53bff9b958e9081878/AndroidManifest.xml:5:5-20
+REJECTED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/2fcccc8704b79803987b6f6a26cbb9f9/AndroidManifest.xml:5:5-20
 	tools:node
 		ADDED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:32:7-27
 	android:label
@@ -399,8 +399,8 @@ intent-filter#com.google.android.c2dm.intent.RECEIVE
 ADDED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:66:13-68:29
 uses-feature#android.hardware.camera
 ADDED from [:react-native-camera] /Users/Pocket/convoyer/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-15:36
-MERGED from [com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/cameraview-d5d9b0d925494ef451ce3eef3fdf14cc874d9baa.aar/aeaca0c364a137223d5755bce53a6ea4/AndroidManifest.xml:23:5-60
-MERGED from [com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/cameraview-d5d9b0d925494ef451ce3eef3fdf14cc874d9baa.aar/aeaca0c364a137223d5755bce53a6ea4/AndroidManifest.xml:23:5-60
+MERGED from [com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/cameraview-d5d9b0d925494ef451ce3eef3fdf14cc874d9baa.aar/a7c0f0bd96b9b36594509ba0c2f5ddb3/AndroidManifest.xml:23:5-60
+MERGED from [com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/cameraview-d5d9b0d925494ef451ce3eef3fdf14cc874d9baa.aar/a7c0f0bd96b9b36594509ba0c2f5ddb3/AndroidManifest.xml:23:5-60
 	android:required
 		ADDED from [:react-native-camera] /Users/Pocket/convoyer/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-33
 		MERGED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:13:5-15:36
@@ -408,129 +408,129 @@ MERGED from [com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3e
 		ADDED from [:react-native-camera] /Users/Pocket/convoyer/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:9-47
 uses-feature#android.hardware.camera.autofocus
 ADDED from [:react-native-camera] /Users/Pocket/convoyer/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-18:36
-MERGED from [com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/cameraview-d5d9b0d925494ef451ce3eef3fdf14cc874d9baa.aar/aeaca0c364a137223d5755bce53a6ea4/AndroidManifest.xml:24:5-26:36
-MERGED from [com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/cameraview-d5d9b0d925494ef451ce3eef3fdf14cc874d9baa.aar/aeaca0c364a137223d5755bce53a6ea4/AndroidManifest.xml:24:5-26:36
+MERGED from [com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/cameraview-d5d9b0d925494ef451ce3eef3fdf14cc874d9baa.aar/a7c0f0bd96b9b36594509ba0c2f5ddb3/AndroidManifest.xml:24:5-26:36
+MERGED from [com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/cameraview-d5d9b0d925494ef451ce3eef3fdf14cc874d9baa.aar/a7c0f0bd96b9b36594509ba0c2f5ddb3/AndroidManifest.xml:24:5-26:36
 	android:required
 		ADDED from [:react-native-camera] /Users/Pocket/convoyer/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:9-33
 	android:name
 		ADDED from [:react-native-camera] /Users/Pocket/convoyer/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:9-57
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from [:react-native-maps] /Users/Pocket/convoyer/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:10:5-81
-MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:12:5-81
-MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:12:5-81
+MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:12:5-81
+MERGED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:12:5-81
 	android:name
 		ADDED from [:react-native-maps] /Users/Pocket/convoyer/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:10:22-78
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/8851aaef9c2de855900cff4114d29460/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/97c365655098c6d61a593382851825da/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/97c365655098c6d61a593382851825da/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/954f32486572089123d803e404dae1ef/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/954f32486572089123d803e404dae1ef/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/7395944ea3963d5da59d38097f28331d/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/7395944ea3963d5da59d38097f28331d/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/85d2d1a414689fae6ea64ce6d49eb473/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/85d2d1a414689fae6ea64ce6d49eb473/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/22633d29f623db7a23bb524c7ec56e19/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/22633d29f623db7a23bb524c7ec56e19/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/deb388d12a2a1bbf8e178d238f133359/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/deb388d12a2a1bbf8e178d238f133359/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/9cf5c89baa27e7e92a40b9c403aa2146/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/9cf5c89baa27e7e92a40b9c403aa2146/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/33b1462902992d3ec531c118b7daf519/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/33b1462902992d3ec531c118b7daf519/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/a2b0f1389778209bc903a7ff12c9f3c6/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/a2b0f1389778209bc903a7ff12c9f3c6/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/eb707569ae81f68ccc2aea2262f399ad/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/eb707569ae81f68ccc2aea2262f399ad/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/2a4514a514eddcf658a835bcd925f1d6/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/2a4514a514eddcf658a835bcd925f1d6/AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/9c42b66bbc55e88a0e46df6847852a4f/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/aa3b8cb9ce3380b96dbec9f37488b4c1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/aa3b8cb9ce3380b96dbec9f37488b4c1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/41c1a0072fbb6639953cd5782ca0520d/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/41c1a0072fbb6639953cd5782ca0520d/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/d5685b9cf5902957bafa2f48d5be47da/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/d5685b9cf5902957bafa2f48d5be47da/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/23855636b4e2516e66f42637f413a266/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/23855636b4e2516e66f42637f413a266/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/b96e3cecc7744c0ff1947c7d3c9d2acb/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/b96e3cecc7744c0ff1947c7d3c9d2acb/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8fd406482834da1eef7dce7a6f350691/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8fd406482834da1eef7dce7a6f350691/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/d5a3bfa9810666d67e6c76c0263b2c37/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/d5a3bfa9810666d67e6c76c0263b2c37/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/03745ff001e3f47b39e908f3eb1465ec/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/03745ff001e3f47b39e908f3eb1465ec/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/edd4f88d51f65c4bb5abdd43a3d3af1f/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/edd4f88d51f65c4bb5abdd43a3d3af1f/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/bc148bc962275fb0fbca04a0f1e5a448/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/bc148bc962275fb0fbca04a0f1e5a448/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/0f8e3847d37f48234e167315f4375853/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/0f8e3847d37f48234e167315f4375853/AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/8851aaef9c2de855900cff4114d29460/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/9c42b66bbc55e88a0e46df6847852a4f/AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/8851aaef9c2de855900cff4114d29460/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/9c42b66bbc55e88a0e46df6847852a4f/AndroidManifest.xml:26:9-47
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:11:5-79
-MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/6f8d2e19e6f143de9ca3fa78c0065052/AndroidManifest.xml:19:5-78
-MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/6f8d2e19e6f143de9ca3fa78c0065052/AndroidManifest.xml:19:5-78
+ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/675768287af3211be8bc966ee0705db9/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/675768287af3211be8bc966ee0705db9/AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:11:22-76
+		ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:11:22-76
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:13:5-79
+ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:13:5-79
 	android:name
-		ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:13:22-76
+		ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:13:22-76
 uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
-ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:14:5-89
+ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:14:5-89
 	android:name
-		ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:14:22-86
+		ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:14:22-86
 uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
-ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:17:5-94
+ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:17:5-94
 	android:name
-		ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:17:22-91
+		ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:17:22-91
 uses-permission#android.permission.GET_TASKS
-ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:19:5-68
+ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:19:5-68
 	android:name
-		ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:19:22-65
+		ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:19:22-65
 uses-feature#android.hardware.location.gps
-ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:21:5-23:36
+ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:21:5-23:36
 	android:required
-		ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:23:9-33
+		ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:23:9-33
 	android:name
-		ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/1ff067aeecf231e7485f361c1a6cf272/AndroidManifest.xml:22:9-53
+		ADDED from [:tslocationmanager:] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/tslocationmanager.aar/07cc8204e8713fb41ed88f2ea371096e/AndroidManifest.xml:22:9-53
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.android.gms:play-services-gcm:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.8.0.aar/e2cbdf333e06389b379319576e90ab64/AndroidManifest.xml:23:5-82
-MERGED from [com.google.android.gms:play-services-iid:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.8.0.aar/2defe2989dce1566d12c7b08fc000894/AndroidManifest.xml:23:5-82
-MERGED from [com.google.android.gms:play-services-iid:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.8.0.aar/2defe2989dce1566d12c7b08fc000894/AndroidManifest.xml:23:5-82
+ADDED from [com.google.android.gms:play-services-gcm:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.8.0.aar/3b3d4ffeea731e6616080d860af08712/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.8.0.aar/d47fe59d6b7a7aeef56586c4bea23afb/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.8.0.aar/d47fe59d6b7a7aeef56586c4bea23afb/AndroidManifest.xml:23:5-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-gcm:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.8.0.aar/e2cbdf333e06389b379319576e90ab64/AndroidManifest.xml:23:22-79
+		ADDED from [com.google.android.gms:play-services-gcm:11.8.0] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.8.0.aar/3b3d4ffeea731e6616080d860af08712/AndroidManifest.xml:23:22-79
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/6f8d2e19e6f143de9ca3fa78c0065052/AndroidManifest.xml:21:5-77
+ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/675768287af3211be8bc966ee0705db9/AndroidManifest.xml:21:5-77
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/6f8d2e19e6f143de9ca3fa78c0065052/AndroidManifest.xml:21:19-51
+		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/675768287af3211be8bc966ee0705db9/AndroidManifest.xml:21:19-51
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/6f8d2e19e6f143de9ca3fa78c0065052/AndroidManifest.xml:21:52-75
+		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/675768287af3211be8bc966ee0705db9/AndroidManifest.xml:21:52-75
 uses-permission#com.sec.android.provider.badge.permission.READ
-ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:19:5-86
+ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:19:5-86
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:19:22-83
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:19:22-83
 uses-permission#com.sec.android.provider.badge.permission.WRITE
-ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:20:5-87
+ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:20:5-87
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:20:22-84
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:20:22-84
 uses-permission#com.htc.launcher.permission.READ_SETTINGS
-ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:23:5-81
+ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:23:5-81
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:23:22-78
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:23:22-78
 uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
-ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:24:5-83
+ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:24:5-83
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:24:22-80
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:24:22-80
 uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
-ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:27:5-88
+ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:27:5-88
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:27:22-85
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:27:22-85
 uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
-ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:28:5-92
+ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:28:5-92
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:28:22-89
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:28:22-89
 uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
-ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:31:5-84
+ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:31:5-84
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:31:22-81
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:31:22-81
 uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
-ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:34:5-83
+ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:34:5-83
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:34:22-80
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:34:22-80
 uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
-ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:37:5-91
+ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:37:5-91
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:37:22-88
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:37:22-88
 uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
-ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:38:5-92
+ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:38:5-92
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:38:22-89
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:38:22-89
 uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
-ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:39:5-93
+ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:39:5-93
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/f30300a24bd1aba061898feaf99ebf28/AndroidManifest.xml:39:22-90
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/Pocket/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/0aef017510d2fc90045fc89efec9e5f4/AndroidManifest.xml:39:22-90
 uses-permission#android.permission.READ_PHONE_STATE
 IMPLIED from /Users/Pocket/convoyer/android/app/src/main/AndroidManifest.xml:1:1-72:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4

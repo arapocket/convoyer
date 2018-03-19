@@ -45,8 +45,14 @@ var MAP_MARKER_IMAGE = require('../../images/location_marker.png');
 // const LATITUDE_DELTA = 0.00099;
 // const LONGITUDE_DELTA = 0.00099;
 
-const LATITUDE_DELTA = 0.0015;
-const LONGITUDE_DELTA = 0.0015;
+// const LATITUDE_DELTA = 0.0015;
+// const LONGITUDE_DELTA = 0.0015;
+
+
+const LATITUDE_DELTA = 0.002;
+const LONGITUDE_DELTA = 0.002;
+
+
 
 const STATIONARY_REGION_FILL_COLOR = "rgba(200,0,0,0.2)"
 const STATIONARY_REGION_STROKE_COLOR = "rgba(200,0,0,0.2)"
@@ -794,7 +800,7 @@ class HomeView extends React.Component {
           showsTraffic={false}
           toolbarEnabled={false}
           loadingEnabled={true}
-          maxZoomLevel={17}
+          maxZoomLevel={16}
           mapType='standard'
         >
           <MapView.Circle
@@ -817,8 +823,8 @@ class HomeView extends React.Component {
             key="route"
             coordinates={(this.state.checkpoints)}
             geodesic={true}
-            strokeColor={Config.colors.green}
-            strokeWidth={3}
+            strokeColor={Config.colors.red}
+            strokeWidth={5}
             zIndex={0}
           />
           {this.renderMarkers()}
@@ -838,9 +844,9 @@ var styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'column',
-    paddingTop: 20,
+    paddingTop: 30,
     justifyContent: 'space-between',
-    backgroundColor: Config.colors.off_white
+    backgroundColor: Config.colors.orange
 
   },
   topToolbar: {

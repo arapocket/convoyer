@@ -214,13 +214,13 @@ var styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'column',
-    paddingTop: 20,
+    paddingTop: 30,
     justifyContent: 'space-between',
     backgroundColor: Config.colors.off_white
 
   },
   topToolbar: {
-    backgroundColor: '#cc7000',
+    backgroundColor: Config.colors.off_white,
     borderBottomColor: 'black',
     borderBottomWidth: 2,
     flexDirection: 'row',

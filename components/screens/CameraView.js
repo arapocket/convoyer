@@ -151,7 +151,8 @@ const styles = StyleSheet.create({
 
         flexDirection: "column",
         flex: 1,
-        backgroundColor: Config.colors.white
+        backgroundColor: Config.colors.orange,
+        paddingTop: 50
 
     },
     preview: {

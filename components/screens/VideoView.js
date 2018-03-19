@@ -71,6 +71,7 @@ class VideoView extends React.Component {
                     }}
                     style={styles.preview}
                     mirrorImage={false}
+                    
 
                 >
                     <Icon.Button style={styles.cancelButton}
@@ -132,7 +133,7 @@ class VideoView extends React.Component {
                 this.props.navigator.dismissModal({
                     animationType: 'slide-down' // 'none' / 'slide-down' , dismiss animation for the modal (optional, default 'slide-down')
                 });
-            }, 7000)
+            }, 5000)
 
             this.camera.recordAsync()
                 .then((data) => {
@@ -172,7 +173,8 @@ const styles = StyleSheet.create({
 
         flexDirection: "column",
         flex: 1,
-        backgroundColor: Config.colors.white
+        backgroundColor: Config.colors.orange,
+        paddingTop: 50
 
     },
     preview: {

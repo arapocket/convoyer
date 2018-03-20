@@ -66,8 +66,7 @@ class CameraView extends React.Component {
                         this.camera = cam;
                     }}
                     style={styles.preview}
-                    fixOrientation = {true}
-                    forceUpOrientation = {true}                    
+
                 >
 
                     <Icon.Button style={styles.cancelButton}
@@ -113,9 +112,11 @@ class CameraView extends React.Component {
 
     takePicture() {
         const options = {
+            forceUpOrientation: true, fixOrientation: true
         };
+                 
         //options.location = ...
-        this.camera.takePictureAsync({ metadata: options })
+        this.camera.takePictureAsync(options)
             .then((data) => {
                 this.patrolService.setMediaType('photo');
                 console.log("logging uri");

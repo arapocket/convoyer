@@ -144,7 +144,7 @@ class VideoView extends React.Component {
             //     });
             // }, 10000)
 
-            const options = { maxFileSize: 6000000 };
+            const options = { maxFileSize: 10000000 };
 
             this.camera.recordAsync(options)
                 .then((data) => {

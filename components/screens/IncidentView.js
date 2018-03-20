@@ -307,7 +307,7 @@ class IncidentView extends React.Component {
       this.authService.toast("The incident was not sent. Please check your connection and try again.")
     })
 
-    EventRegister.emit('new incident', this.idService.getCurrentIncidentID());
+    
 
   }
 
@@ -383,6 +383,9 @@ class IncidentView extends React.Component {
 
       var fileType = 'media/jpeg';
 
+      let authService = this.authService;
+      let idService = this.idService;
+
       if (this.patrolService.getMediaType() == 'video'){
 
         console.log('media type is video');
@@ -396,12 +399,14 @@ class IncidentView extends React.Component {
 
 
           var xhr = new XMLHttpRequest();
+          
           xhr.onreadystatechange = function () {
             if (xhr.readyState === 4) {
               if (xhr.status === 200) {
-                console.log('Successfully uploaded the file')
+                authService.toast('Successfully uploaded the file.');
+                EventRegister.emit('new incident', idService.getCurrentIncidentID());
               } else {
-                console.log('The file could not be uploaded')
+                authService.toast('The file could not be uploaded.');
               }
             }
           }
@@ -418,9 +423,10 @@ class IncidentView extends React.Component {
         xhr.onreadystatechange = function () {
           if (xhr.readyState === 4) {
             if (xhr.status === 200) {
-              console.log('Successfully uploaded the file')
+              authService.toast('Successfully uploaded the file.');
+              EventRegister.emit('new incident', idService.getCurrentIncidentID());
             } else {
-              console.log('The file could not be uploaded')
+              authService.toast('The file could not be uploaded.');
             }
           }
         }

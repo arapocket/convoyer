@@ -100,9 +100,18 @@ class VideoView extends React.Component {
     }
 
     close() {
-        this.props.navigator.dismissModal({
-            animationType: 'slide-down' // 'none' / 'slide-down' , dismiss animation for the modal (optional, default 'slide-down')
-        });
+
+        if (!this.state.isRecording){
+            this.props.navigator.dismissModal({
+                animationType: 'slide-down' // 'none' / 'slide-down' , dismiss animation for the modal (optional, default 'slide-down')
+            });
+        } else {
+            this.camera.stopRecording();
+            this.props.navigator.dismissModal({
+                animationType: 'slide-down' // 'none' / 'slide-down' , dismiss animation for the modal (optional, default 'slide-down')
+            });
+        }
+
     }
 
     captureButton() {

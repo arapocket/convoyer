@@ -71,7 +71,7 @@ class VideoView extends React.Component {
                     }}
                     style={styles.preview}
                     mirrorImage={false}
-                    
+
 
                 >
                     <Icon.Button style={styles.cancelButton}
@@ -127,18 +127,27 @@ class VideoView extends React.Component {
         if (!this.state.isRecording) {
             this.setState({ isRecording: true });
 
-            setTimeout(() => {
-                this.setState({ isRecording: false })
-                this.camera.stopRecording();
-                this.props.navigator.dismissModal({
-                    animationType: 'slide-down' // 'none' / 'slide-down' , dismiss animation for the modal (optional, default 'slide-down')
-                });
-            }, 5000)
+            // setTimeout(() => {
+            //     
+            //     this.camera.stopRecording();
+            //     this.props.navigator.dismissModal({
+            //         animationType: 'slide-down' // 'none' / 'slide-down' , dismiss animation for the modal (optional, default 'slide-down')
+            //     });
+            // }, 10000)
 
-            this.camera.recordAsync()
+            const options = { maxFileSize: 6000000 };
+
+            this.camera.recordAsync(options)
                 .then((data) => {
-                    this.patrolService.setMediaType('video');
 
+
+                    this.setState({ isRecording: false })
+                    this.camera.stopRecording();
+                    this.props.navigator.dismissModal({
+                        animationType: 'slide-down' // 'none' / 'slide-down' , dismiss animation for the modal (optional, default 'slide-down')
+                    });
+
+                    this.patrolService.setMediaType('video');
                     this.patrolService.setMediaPath(data.uri);
                     this.patrolService.getState((state) => {
                         this.setState({

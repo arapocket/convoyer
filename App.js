@@ -68,7 +68,7 @@ Navigation.registerComponent('foxwatch.OptionsView', () => OptionsView);
   Navigation.startSingleScreenApp({
     screen: {
       screen: startPage,
-      title: '🦊'
+      title: 'CONVOYER'
     }
   });
 

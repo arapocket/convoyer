@@ -10,57 +10,33 @@ import {
 
 import EventEmitter from 'EventEmitter';
 import { EventRegister } from 'react-native-event-listeners'
-
-
-
 import Icon from 'react-native-vector-icons/Ionicons';
 import MapView from 'react-native-maps';
 import ActionButton from 'react-native-action-button';
 import Button from 'apsl-react-native-button'
 import Spinner from 'react-native-spinkit';
-
-
-//Async Services
 import BGService from '../lib/BGService';
 import IDService from '../lib/IDService';
 import PatrolService from '../lib/PatrolService';
 import AuthService from '../lib/AuthService';
-
-
 import Config from '../config';
 import commonStyles from '../styles';
 import BottomToolbarView from '../BottomToolbarView';
 import IncidentView from './IncidentView'
 import ChatView from './ChatView'
-
 import { StyleProvider } from "native-base";
 import BackgroundFetch from "react-native-background-fetch";
-
-
-
-
-
 var MAP_MARKER_IMAGE = require('../../images/location_marker.png');
-
 // const LATITUDE_DELTA = 0.00099;
 // const LONGITUDE_DELTA = 0.00099;
-
 // const LATITUDE_DELTA = 0.0015;
 // const LONGITUDE_DELTA = 0.0015;
-
-
 const LATITUDE_DELTA = 0.002;
 const LONGITUDE_DELTA = 0.002;
-
-
-
 const STATIONARY_REGION_FILL_COLOR = "rgba(200,0,0,0.2)"
 const STATIONARY_REGION_STROKE_COLOR = "rgba(200,0,0,0.2)"
 const POLYLINE_STROKE_COLOR = "rgba(32,64,255,0.6)";
-
 let eventEmitter = new EventEmitter();
-
-
 const timer = require('react-native-timer');
 
 
@@ -569,7 +545,6 @@ class HomeView extends React.Component {
 
   }
 
-
   onPowerSaveChange(isPowerSaveMode) {
     // Show red side-border bars on map when in low-power mode.
     this.setState({
@@ -585,10 +560,6 @@ class HomeView extends React.Component {
 
   onSchedule(state) {
     this.authService.set('enabled', this.authService.isEnabled());
-  }
-
-  onRegionChange(coordinate) {
-
   }
 
   setCenter(location) {
@@ -608,7 +579,6 @@ class HomeView extends React.Component {
       mapScrollEnabled: true
     });
   }
-
 
   clearMarkers() {
     this.setState({
@@ -791,7 +761,6 @@ class HomeView extends React.Component {
           ref="map"
           style={styles.map}
           showsUserLocation={this.state.showsUserLocation}
-          onRegionChange={this.onRegionChange.bind(this)}
           onPanDrag={this.onMapPanDrag.bind(this)}
           scrollEnabled={this.state.mapScrollEnabled}
           showsMyLocationButton={false}

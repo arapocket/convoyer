@@ -156,35 +156,9 @@ class BottomToolbarView extends React.Component {
     });
   }
 
-  // getPaceButton() {
-
-
-  //   if (this.state.enabled) {
-
-  //     if (this.state.isMoving) {
-  //       var icon = Config.icons.pause;
-  //     } else {
-  //       var icon = Config.icons.play;
-  //     }
-  //   }
-
+  onClickFinishedRoute(){
     
-  //         let button = <Icon.Button
-  //     onPress={this.onClickPace.bind(this)}
-  //     name={icon} color={Config.colors.off_white}
-  //     size={43} backgroundColor="transparent"
-  //     underlayColor="transparent"
-  //     iconStyle={{ marginRight: 0 }} />
-
-  //   return (
-  //     <View  >
-  //       {button}
-  //     </View>
-  //   );
-
-  // }
-
-
+  }
 
   render() {
     return (
@@ -201,9 +175,14 @@ class BottomToolbarView extends React.Component {
             iconStyle={{ marginRight: 0 }}
             onPress={() => this.onClickLocate()} />
         </View>
-        <View style={styles.paceButton} >
-        </View>
-
+        <Icon.Button
+            style={styles.btnNavigate}
+            color={Config.colors.off_white}
+            backgroundColor="transparent"
+            underlayColor="transparent" size={45}
+            name={Config.icons.flag}
+            iconStyle={{ marginRight: 0 }}
+            onPress={() => this.onClickFinishedRoute()} />
       </View>
 
 

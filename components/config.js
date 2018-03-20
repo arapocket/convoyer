@@ -46,6 +46,7 @@ var config = (function() {
       pause: 'md-pause',
       navigate: 'md-locate',
       load: 'ios-sync',
+      flag: 'ios-flag',
 
       spinner: <Icon name="ios-sync" size={20} style={{marginRight:3, alignSelf: 'center'}} />,
       disabled: <Icon name="ios-warning" size={15} style={{color: "#D9534F"}} />,

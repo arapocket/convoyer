@@ -19,4 +19,5 @@ dependencies: \
   /Users/Pocket/convoyer/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Profiler/RCTProfile.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
-  /Users/Pocket/convoyer/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h
+  /Users/Pocket/convoyer/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Inspector/RCTInspectorPackagerConnection.h

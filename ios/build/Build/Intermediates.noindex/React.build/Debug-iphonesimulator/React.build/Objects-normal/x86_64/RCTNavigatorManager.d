@@ -25,4 +25,5 @@ dependencies: \
   /Users/Pocket/convoyer/node_modules/react-native/React/Views/RCTComponent.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Views/RCTNavigator.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Modules/RCTUIManager.h \
-  /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTRootView.h
+  /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTRootView.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Modules/RCTUIManagerObserverCoordinator.h

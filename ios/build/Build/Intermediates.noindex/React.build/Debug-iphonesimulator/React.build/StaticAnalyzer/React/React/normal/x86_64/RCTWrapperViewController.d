@@ -1,7 +1,6 @@
 dependencies: \
   /Users/Pocket/convoyer/node_modules/react-native/React/Views/RCTWrapperViewController.m \
   /Users/Pocket/convoyer/node_modules/react-native/React/Views/RCTWrapperViewController.h \
-  /Users/Pocket/convoyer/node_modules/react-native/React/Views/RCTViewControllerProtocol.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTEventDispatcher.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTBridge.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTBridgeDelegate.h \

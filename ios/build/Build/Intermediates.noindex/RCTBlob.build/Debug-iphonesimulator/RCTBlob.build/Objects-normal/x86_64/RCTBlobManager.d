@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/Pocket/convoyer/node_modules/react-native/Libraries/Blob/RCTBlobManager.m \
+  /Users/Pocket/convoyer/node_modules/react-native/Libraries/Blob/RCTBlobManager.mm \
   /Users/Pocket/convoyer/node_modules/react-native/Libraries/Blob/RCTBlobManager.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
@@ -21,5 +21,7 @@ dependencies: \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTWebSocketModule.h \
-  /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h
+  /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTNetworking.h \
+  /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h \
+  /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTNetworkTask.h \
+  /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTWebSocketModule.h

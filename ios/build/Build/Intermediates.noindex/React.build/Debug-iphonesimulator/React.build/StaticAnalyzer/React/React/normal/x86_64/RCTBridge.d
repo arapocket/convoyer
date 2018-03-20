@@ -21,6 +21,7 @@ dependencies: \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTEventDispatcher.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Inspector/RCTInspectorPackagerConnection.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTModuleData.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTPerformanceLogger.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Profiler/RCTProfile.h \

@@ -27,5 +27,4 @@ dependencies: \
   /Users/Pocket/convoyer/node_modules/react-native/React/Views/ScrollView/RCTScrollableProtocol.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Views/RCTView.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Views/RCTWrapperViewController.h \
-  /Users/Pocket/convoyer/node_modules/react-native/React/Views/RCTViewControllerProtocol.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Views/UIView+React.h

@@ -21,6 +21,6 @@ dependencies: \
   /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTUtils.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Views/RCTPointerEvents.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Modules/RCTI18nUtil.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Views/UIView+Private.h \
-  /Users/Pocket/convoyer/node_modules/react-native/React/Views/UIView+React.h \
-  /Users/Pocket/convoyer/node_modules/react-native/React/Modules/RCTI18nUtil.h
+  /Users/Pocket/convoyer/node_modules/react-native/React/Views/UIView+React.h

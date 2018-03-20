@@ -11,4 +11,5 @@ dependencies: \
   /Users/Pocket/convoyer/node_modules/react-native/React/Modules/RCTAccessibilityManager.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTAssert.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/UIUtils/RCTUIUtils.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTUtils.h

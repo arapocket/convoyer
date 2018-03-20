@@ -15,6 +15,7 @@ dependencies: \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Base/Surface/RCTSurfaceRootShadowViewDelegate.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Modules/RCTI18nUtil.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Views/RCTShadowView+Layout.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Modules/RCTUIManagerUtils.h \
-  /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/Pocket/convoyer/node_modules/react-native/React/Modules/RCTI18nUtil.h
+  /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTAssert.h

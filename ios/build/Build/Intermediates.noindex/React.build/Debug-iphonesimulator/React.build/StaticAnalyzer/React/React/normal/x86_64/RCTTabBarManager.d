@@ -23,4 +23,7 @@ dependencies: \
   /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTInvalidating.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Views/UIView+React.h \
   /Users/Pocket/convoyer/node_modules/react-native/React/Views/RCTComponent.h \
-  /Users/Pocket/convoyer/node_modules/react-native/React/Views/RCTTabBar.h
+  /Users/Pocket/convoyer/node_modules/react-native/React/Views/RCTTabBar.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Modules/RCTUIManager.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Base/RCTRootView.h \
+  /Users/Pocket/convoyer/node_modules/react-native/React/Modules/RCTUIManagerObserverCoordinator.h

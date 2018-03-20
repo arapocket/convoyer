@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/Pocket/convoyer/node_modules/react-native/Libraries/Text/RCTTextSelection.m \
-  /Users/Pocket/convoyer/node_modules/react-native/Libraries/Text/RCTTextSelection.h \
+  /Users/Pocket/convoyer/node_modules/react-native/Libraries/Text/TextInput/RCTTextSelection.m \
+  /Users/Pocket/convoyer/node_modules/react-native/Libraries/Text/TextInput/RCTTextSelection.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \

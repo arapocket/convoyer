@@ -165,6 +165,7 @@ class HomeView extends React.Component {
 
         //create a polyline for each of these
         this.loadCurrentCheckpoints(json[0].RouteID);
+        this.idService.setCurrentRouteID(json[0].RouteID);
       }
       ).catch(err => {
       });

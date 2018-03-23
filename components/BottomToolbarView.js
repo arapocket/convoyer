@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import {
   StyleSheet,
   Text,
-  View
+  View,
+  Alert
 } from 'react-native';
 import Config from './config';
 import Icon from 'react-native-vector-icons/Ionicons';
@@ -11,6 +12,7 @@ import Button from 'apsl-react-native-button'
 import commonStyles from './styles';
 
 import BGService from './lib/BGService';
+import AuthService from './lib/AuthService';
 
 
 /**
@@ -23,13 +25,12 @@ class BottomToolbarView extends React.Component {
   constructor(props) {
     super(props);
     this.bgService = BGService.getInstance();
+    this.authService = AuthService.getInstance();
     this.bgService.on('change', (name, value) => {
       if (name === 'odometer') {
         this.setState({ odometer: value.toFixed(1) });
       }
     });
-
-
 
     this.state = {
       enabled: false,
@@ -40,8 +41,6 @@ class BottomToolbarView extends React.Component {
       currentProvider: undefined,
       showIncidentModal: false
     };
-
-
   }
 
   componentDidMount() {
@@ -56,6 +55,7 @@ class BottomToolbarView extends React.Component {
     this.onProviderChange = this.onProviderChange.bind(this);
     this.onLocation = this.onLocation.bind(this);
     this.onMotionChange = this.onMotionChange.bind(this);
+    this.onPressFinishedRoute = this.onPressFinishedRoute.bind(this);
 
     bgGeo.on("activitychange", this.onActivityChange);
     bgGeo.on("providerchange", this.onProviderChange);
@@ -156,8 +156,45 @@ class BottomToolbarView extends React.Component {
     });
   }
 
-  onClickFinishedRoute(){
+  routeButton() {
+
+
+            // {/* <Icon.Button
+            // style={styles.btnNavigate}
+            // color={Config.colors.off_white}
+            // backgroundColor="transparent"
+            // underlayColor="transparent" size={45}
+            // name={Config.icons.flag}
+            // iconStyle={{ marginRight: 0 }}
+            // onPress={() => this.onClickFinishedRoute()} /> */}
+
+    if (this.authService.isEnabled()) {
+      let button = <Icon.Button onPress={this.onPressFinishedRoute} name={Config.icons.flag} color="#fff" backgroundColor={Config.colors.orange} underlayColor="transparent" size={45} style={[styles.btnNavigate]} iconStyle={{ marginRight: 0 }} padding={10} marginRight={10} />
+
+      return (
+        <View >
+          {button}
+        </View>
+      );
+    }
+
+
+  }
+
+  onPressFinishedRoute(){
     
+Alert.alert(
+  'Start Next Route?',
+  'Are you sure you want to mark your current route as completed?',
+  [
+    {text: 'No', onPress: () => {
+      
+    }},
+    {text: 'Yes', onPress: () => {
+      this.authService.routePut();
+    }},
+  ]
+)
   }
 
   render() {
@@ -175,18 +212,10 @@ class BottomToolbarView extends React.Component {
             iconStyle={{ marginRight: 0 }}
             onPress={() => this.onClickLocate()} />
         </View>
-        <Icon.Button
-            style={styles.btnNavigate}
-            color={Config.colors.off_white}
-            backgroundColor="transparent"
-            underlayColor="transparent" size={45}
-            name={Config.icons.flag}
-            iconStyle={{ marginRight: 0 }}
-            onPress={() => this.onClickFinishedRoute()} />
+
+        {this.routeButton()}
+
       </View>
-
-
-
 
     );
   }

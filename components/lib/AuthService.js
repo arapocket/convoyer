@@ -428,21 +428,6 @@ class AuthService extends React.Component {
       PatrolID: this.idService.getCurrentPatrolID(),
       CurrentPatrol: 0
     });
-
-    // fetch('http://ec2-34-210-155-178.us-west-2.compute.amazonaws.com:3000/patrols', {
-    //   method: 'PUT',
-    //   headers: {
-    //     'Accept': 'application/json',
-    //     'Content-Type': 'application/json',
-    //   },
-    //   body: JSON.stringify({
-    //     GuardID: this.idService.getCurrentGuardID(),
-    //     CurrentPatrol: 0
-    //   })
-    // }).then((response) => {
-    //   //  console.log("logging patrolPut response");
-    //   //  console.log(response);
-    // })
   }
 
   coordPut() {
@@ -522,6 +507,25 @@ class AuthService extends React.Component {
       }
     }).then((response) => {
       this.postAccuratePatrol();
+    })
+  }
+
+  routePut(){
+
+
+    fetch('http://ec2-34-210-155-178.us-west-2.compute.amazonaws.com:3000/queueroute', {
+      method: 'PUT',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        QueuePosition: 0,
+        RouteID: this.idService.getCurrentRouteID(),
+        GuardID: this.idService.getCurrentGuardID()
+      })
+    }).then((response) => {
+      EventRegister.emit('new route', 'it works!!!');
     })
   }
 

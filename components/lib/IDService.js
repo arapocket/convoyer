@@ -34,7 +34,8 @@ class IDService {
             guardLastNames: ["Hardy", "Lennon", "Starr", "Scott", "McGregor"],
             currentGuardFirstName: "",
             currentGuardLastName: '',
-            currentMessageID: ''
+            currentMessageID: '',
+            currentRouteID: ''
         };
         this._loadState();
 
@@ -178,6 +179,16 @@ class IDService {
 
     getCurrentMessageID(){
         return this.state.currentMessageID;
+    }
+
+
+    setCurrentRouteID(routeID){
+        this.set('currentRouteID', routeID);
+    }
+
+
+    getCurrentRouteID(){
+        return this.state.currentRouteID;
     }
 
     resetState(){

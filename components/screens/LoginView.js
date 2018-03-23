@@ -66,7 +66,7 @@ class LoginView extends React.Component {
   
       this.props.navigator.push({
         screen: 'foxwatch.HomeView', // unique ID registered with Navigation.registerScreen
-        title: '🦊', // navigation bar title of the pushed screen (optional)
+        title: 'CONVOYER', // navigation bar title of the pushed screen (optional)
         passProps: {}, // Object that will be passed as props to the pushed screen (optional)
         animated: true, // does the push have transition animation or does it happen immediately (optional)
         animationType: 'fade', // 'fade' (for both) / 'slide-horizontal' (for android) does the push have different transition animation (optional)

@@ -694,7 +694,7 @@ class HomeView extends React.Component {
     this.bgService.playSound('OPEN');
     this.props.navigator.showModal({
       screen: "foxwatch.IncidentView", // unique ID registered with Navigation.registerScreen
-      title: "🦊", // title of the screen as appears in the nav bar (optional)
+      title: "CONVOYER", // title of the screen as appears in the nav bar (optional)
       passProps: {}, // simple serializable object that will pass as props to the modal (optional)
       animationType: 'slide-up' // 'none' / 'slide-up' , appear animation for the modal (optional, default 'slide-up')
     });
@@ -719,7 +719,7 @@ class HomeView extends React.Component {
     this.bgService.playSound('OPEN');
     this.props.navigator.showModal({
       screen: "foxwatch.ChatView", // unique ID registered with Navigation.registerScreen
-      title: "🦊", // title of the screen as appears in the nav bar (optional)
+      title: "CONVOYER", // title of the screen as appears in the nav bar (optional)
       passProps: {}, // simple serializable object that will pass as props to the modal (optional)
       animationType: 'slide-up' // 'none' / 'slide-up' , appear animation for the modal (optional, default 'slide-up')
     });
@@ -739,7 +739,7 @@ class HomeView extends React.Component {
     this.bgService.playSound('OPEN');
     this.props.navigator.showModal({
       screen: "foxwatch.OptionsView", // unique ID registered with Navigation.registerScreen
-      title: "🦊", // title of the screen as appears in the nav bar (optional)
+      title: "CONVOYER", // title of the screen as appears in the nav bar (optional)
       passProps: {}, // simple serializable object that will pass as props to the modal (optional)
       animationType: 'slide-up' // 'none' / 'slide-up' , appear animation for the modal (optional, default 'slide-up')
     });

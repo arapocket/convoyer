@@ -108,15 +108,20 @@ class IncidentView extends React.Component {
 
   renderCheckList() {
     const options = [
-      "Fight",
+      "Door Left Unlocked",
       "Fire",
-      "Public Intoxication",
+      "Illegally Parked Vehicle",
       "Safety Hazard",
+      "Smoke",
+      "Suspicious Activity",
+      "Suspicious Noise",
+      "Suspicious Object",
       "Traffic Accident",
-      "Transient",
       "Tresspass",
+      "Unauthorized Vehicle",
       "Vandalism",
       "Wet Floor",
+      "Wild Animal",
       "Other"
 
     ];
@@ -211,7 +216,7 @@ class IncidentView extends React.Component {
     this.bgService.playSound('OPEN');
     this.props.navigator.showModal({
       screen: "foxwatch.CameraView", // unique ID registered with Navigation.registerScreen
-      title: "🦊", // title of the screen as appears in the nav bar (optional)
+      title: "CONVOYER", // title of the screen as appears in the nav bar (optional)
       passProps: {
         onDone: (data) => {
           // console.log('logging photo path from IncidentView');
@@ -237,7 +242,7 @@ class IncidentView extends React.Component {
     this.bgService.playSound('OPEN');
     this.props.navigator.showModal({
       screen: "foxwatch.VideoView", // unique ID registered with Navigation.registerScreen
-      title: "🦊", // title of the screen as appears in the nav bar (optional)
+      title: "CONVOYER", // title of the screen as appears in the nav bar (optional)
       passProps: {
         onDone: (data) => {
           // console.log('logging photo path from IncidentView');

@@ -94,7 +94,7 @@ class OptionsView extends React.Component {
     EventRegister.emit('log out', 'it works!!!');
 
     this.props.navigator.push({
-        screen: 'foxwatch.LoginView', // unique ID registered with Navigation.registerScreen
+        screen: 'convoyer.LoginView', // unique ID registered with Navigation.registerScreen
         title: 'CONVOYER', // navigation bar title of the pushed screen (optional)
         passProps: {}, // Object that will be passed as props to the pushed screen (optional)
         animated: true, // does the push have transition animation or does it happen immediately (optional)

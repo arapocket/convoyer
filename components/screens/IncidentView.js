@@ -215,7 +215,7 @@ class IncidentView extends React.Component {
 
     this.bgService.playSound('OPEN');
     this.props.navigator.showModal({
-      screen: "foxwatch.CameraView", // unique ID registered with Navigation.registerScreen
+      screen: "convoyer.CameraView", // unique ID registered with Navigation.registerScreen
       title: "CONVOYER", // title of the screen as appears in the nav bar (optional)
       passProps: {
         onDone: (data) => {
@@ -241,7 +241,7 @@ class IncidentView extends React.Component {
 
     this.bgService.playSound('OPEN');
     this.props.navigator.showModal({
-      screen: "foxwatch.VideoView", // unique ID registered with Navigation.registerScreen
+      screen: "convoyer.VideoView", // unique ID registered with Navigation.registerScreen
       title: "CONVOYER", // title of the screen as appears in the nav bar (optional)
       passProps: {
         onDone: (data) => {
@@ -283,7 +283,7 @@ class IncidentView extends React.Component {
       incidentType = 'Other'
     }
 
-    fetch('http://ec2-34-210-155-178.us-west-2.compute.amazonaws.com:3000/incidents', {
+    fetch('http://ec2-54-187-16-98.us-west-2.compute.amazonaws.com:3000/incidents', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
@@ -306,9 +306,15 @@ class IncidentView extends React.Component {
       this.props.navigator.dismissModal({
         animationType: 'slide-down' // 'none' / 'slide-down' , dismiss animation for the modal (optional, default 'slide-down')
       });
-      this.uploadMedia();
+
+      if (mediaType != 'none'){
+        this.uploadMedia();
+      } else {
+        EventRegister.emit('new incident', this.idService.getCurrentIncidentID());
+      }
+      
     }).catch((err) => {
-      console.log(err);
+      // this.authService.toast(err);
       this.authService.toast("The incident was not sent. Please check your connection and try again.")
     })
 
@@ -365,7 +371,7 @@ class IncidentView extends React.Component {
     }
 
 
-    xhr.open("GET", 'http://ec2-34-210-155-178.us-west-2.compute.amazonaws.com:8080/getPreSignUrl?fileName=' + fileName, true);
+    xhr.open("GET", 'http://ec2-54-187-16-98.us-west-2.compute.amazonaws.com:8080/getPreSignUrl?fileName=' + fileName, true);
 
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(null);

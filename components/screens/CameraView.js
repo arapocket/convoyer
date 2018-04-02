@@ -97,7 +97,7 @@ class CameraView extends React.Component {
                 </RNCamera>
 
             </View>
-            
+
 
         );
     }
@@ -114,7 +114,7 @@ class CameraView extends React.Component {
         const options = {
             forceUpOrientation: true, fixOrientation: true
         };
-                 
+
         //options.location = ...
         this.camera.takePictureAsync(options)
             .then((data) => {
@@ -189,7 +189,7 @@ const styles = StyleSheet.create({
     buttonContainer: {
         flex: 1,
         flexDirection: 'column',
-        justifyContent:'flex-end'
+        justifyContent: 'flex-end'
     }
 
 });

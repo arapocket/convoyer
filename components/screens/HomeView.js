@@ -159,7 +159,7 @@ class HomeView extends React.Component {
   loadCurrentRoutes() {
 
 
-    fetch('http://ec2-34-210-155-178.us-west-2.compute.amazonaws.com:3000/currentroutes/' + this.idService.getCurrentGuardID())
+    fetch('http://ec2-54-187-16-98.us-west-2.compute.amazonaws.com:3000/currentroutes/' + this.idService.getCurrentGuardID())
       .then(res => res.json())
       .then(json => {
 
@@ -173,7 +173,7 @@ class HomeView extends React.Component {
 
   loadCurrentCheckpoints(routeID) {
 
-    fetch('http://ec2-34-210-155-178.us-west-2.compute.amazonaws.com:3000/checkpoints/' + routeID)
+    fetch('http://ec2-54-187-16-98.us-west-2.compute.amazonaws.com:3000/checkpoints/' + routeID)
       .then(res => res.json())
       .then(json => {
 
@@ -693,7 +693,7 @@ class HomeView extends React.Component {
   onPressIncidentButton() {
     this.bgService.playSound('OPEN');
     this.props.navigator.showModal({
-      screen: "foxwatch.IncidentView", // unique ID registered with Navigation.registerScreen
+      screen: "convoyer.IncidentView", // unique ID registered with Navigation.registerScreen
       title: "CONVOYER", // title of the screen as appears in the nav bar (optional)
       passProps: {}, // simple serializable object that will pass as props to the modal (optional)
       animationType: 'slide-up' // 'none' / 'slide-up' , appear animation for the modal (optional, default 'slide-up')
@@ -718,7 +718,7 @@ class HomeView extends React.Component {
   onPressChatButton() {
     this.bgService.playSound('OPEN');
     this.props.navigator.showModal({
-      screen: "foxwatch.ChatView", // unique ID registered with Navigation.registerScreen
+      screen: "convoyer.ChatView", // unique ID registered with Navigation.registerScreen
       title: "CONVOYER", // title of the screen as appears in the nav bar (optional)
       passProps: {}, // simple serializable object that will pass as props to the modal (optional)
       animationType: 'slide-up' // 'none' / 'slide-up' , appear animation for the modal (optional, default 'slide-up')
@@ -738,7 +738,7 @@ class HomeView extends React.Component {
   onPressOptionsButton() {
     this.bgService.playSound('OPEN');
     this.props.navigator.showModal({
-      screen: "foxwatch.OptionsView", // unique ID registered with Navigation.registerScreen
+      screen: "convoyer.OptionsView", // unique ID registered with Navigation.registerScreen
       title: "CONVOYER", // title of the screen as appears in the nav bar (optional)
       passProps: {}, // simple serializable object that will pass as props to the modal (optional)
       animationType: 'slide-up' // 'none' / 'slide-up' , appear animation for the modal (optional, default 'slide-up')

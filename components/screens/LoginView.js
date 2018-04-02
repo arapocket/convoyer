@@ -41,7 +41,7 @@ class LoginView extends React.Component {
   }
 
   authenticate(username, password){
-    fetch('http://ec2-34-210-155-178.us-west-2.compute.amazonaws.com:3000/guardauth', {
+    fetch('http://ec2-54-187-16-98.us-west-2.compute.amazonaws.com:3000/guardauth', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
@@ -65,7 +65,7 @@ class LoginView extends React.Component {
       this.onLoginSuccess();
   
       this.props.navigator.push({
-        screen: 'foxwatch.HomeView', // unique ID registered with Navigation.registerScreen
+        screen: 'convoyer.HomeView', // unique ID registered with Navigation.registerScreen
         title: 'CONVOYER', // navigation bar title of the pushed screen (optional)
         passProps: {}, // Object that will be passed as props to the pushed screen (optional)
         animated: true, // does the push have transition animation or does it happen immediately (optional)

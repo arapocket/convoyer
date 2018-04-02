@@ -29,7 +29,7 @@ import ChatView from './components/screens/ChatView';
 import LoginView from './components/screens/LoginView';
 import OptionsView from './components/screens/OptionsView';
 
-var startPage = 'foxwatch.LoginView';
+var startPage = 'convoyer.LoginView';
 console.disableYellowBox = true;
 
 
@@ -56,13 +56,13 @@ export default class Application extends Component {
 
 
 
-Navigation.registerComponent('foxwatch.HomeView', () => HomeView);
-Navigation.registerComponent('foxwatch.CameraView', () => CameraView);
-Navigation.registerComponent('foxwatch.VideoView', () => VideoView);
-Navigation.registerComponent('foxwatch.IncidentView', () => IncidentView);
-Navigation.registerComponent('foxwatch.ChatView', () => ChatView);
-Navigation.registerComponent('foxwatch.LoginView', () => LoginView);
-Navigation.registerComponent('foxwatch.OptionsView', () => OptionsView);
+Navigation.registerComponent('convoyer.HomeView', () => HomeView);
+Navigation.registerComponent('convoyer.CameraView', () => CameraView);
+Navigation.registerComponent('convoyer.VideoView', () => VideoView);
+Navigation.registerComponent('convoyer.IncidentView', () => IncidentView);
+Navigation.registerComponent('convoyer.ChatView', () => ChatView);
+Navigation.registerComponent('convoyer.LoginView', () => LoginView);
+Navigation.registerComponent('convoyer.OptionsView', () => OptionsView);
 
 
   Navigation.startSingleScreenApp({

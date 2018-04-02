@@ -212,7 +212,7 @@ class AuthService extends React.Component {
     var deviceToken = JSON.stringify(token.token).replace(/"/g, '');
 
 
-    fetch('http://ec2-34-210-155-178.us-west-2.compute.amazonaws.com:3000/addDeviceToken', {
+    fetch('http://ec2-54-187-16-98.us-west-2.compute.amazonaws.com:3000/addDeviceToken', {
       method: 'PUT',
       headers: {
         'Accept': 'application/json',
@@ -247,7 +247,7 @@ class AuthService extends React.Component {
     // console.log('logging patrol service states idData');
     // console.log(state.idData);
 
-    socket = io('http://ec2-34-210-155-178.us-west-2.compute.amazonaws.com:3000');
+    socket = io('http://ec2-54-187-16-98.us-west-2.compute.amazonaws.com:3000');
 
 
     var self = this;
@@ -339,7 +339,7 @@ class AuthService extends React.Component {
 
     this.idService.createMessageID();
 
-    fetch('http://ec2-34-210-155-178.us-west-2.compute.amazonaws.com:3000/messages', {
+    fetch('http://ec2-54-187-16-98.us-west-2.compute.amazonaws.com:3000/messages', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
@@ -380,7 +380,7 @@ class AuthService extends React.Component {
     console.log(this.idService);
     console.log(this.idService.getCurrentGuardID());
 
-    fetch('http://ec2-34-210-155-178.us-west-2.compute.amazonaws.com:3000/guards', {
+    fetch('http://ec2-54-187-16-98.us-west-2.compute.amazonaws.com:3000/guards', {
       method: 'PUT',
       headers: {
         'Accept': 'application/json',
@@ -394,14 +394,13 @@ class AuthService extends React.Component {
       //  console.log("logging response");
       //  console.log(response);
     })
-
   }
 
   patrolPost() {
 
     this.idService.createPatrolID();
 
-    fetch('http://ec2-34-210-155-178.us-west-2.compute.amazonaws.com:3000/patrols', {
+    fetch('http://ec2-54-187-16-98.us-west-2.compute.amazonaws.com:3000/patrols', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
@@ -434,7 +433,7 @@ class AuthService extends React.Component {
 
     console.log('coordPut called');
 
-    fetch('http://ec2-34-210-155-178.us-west-2.compute.amazonaws.com:3000/coordinates', {
+    fetch('http://ec2-54-187-16-98.us-west-2.compute.amazonaws.com:3000/coordinates', {
       method: 'PUT',
       headers: {
         'Accept': 'application/json',
@@ -455,7 +454,7 @@ class AuthService extends React.Component {
 
     console.log('coordPut(location) called');
 
-    fetch('http://ec2-34-210-155-178.us-west-2.compute.amazonaws.com:3000/coordinates', {
+    fetch('http://ec2-54-187-16-98.us-west-2.compute.amazonaws.com:3000/coordinates', {
       method: 'PUT',
       headers: {
         'Accept': 'application/json',
@@ -476,7 +475,7 @@ class AuthService extends React.Component {
 
     this.idService.createCoordID();
 
-    fetch('http://ec2-34-210-155-178.us-west-2.compute.amazonaws.com:3000/coordinates', {
+    fetch('http://ec2-54-187-16-98.us-west-2.compute.amazonaws.com:3000/coordinates', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
@@ -499,7 +498,7 @@ class AuthService extends React.Component {
 
   coordDelete(patrolID) {
 
-    fetch('http://ec2-34-210-155-178.us-west-2.compute.amazonaws.com:3000/coordinates/' + patrolID, {
+    fetch('http://ec2-54-187-16-98.us-west-2.compute.amazonaws.com:3000/coordinates/' + patrolID, {
       method: 'DELETE',
       headers: {
         'Accept': 'application/json',
@@ -513,7 +512,7 @@ class AuthService extends React.Component {
   routePut(){
 
 
-    fetch('http://ec2-34-210-155-178.us-west-2.compute.amazonaws.com:3000/queueroute', {
+    fetch('http://ec2-54-187-16-98.us-west-2.compute.amazonaws.com:3000/queueroute', {
       method: 'PUT',
       headers: {
         'Accept': 'application/json',

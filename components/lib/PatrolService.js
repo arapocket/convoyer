@@ -91,7 +91,6 @@ class PatrolService extends React.Component {
         }
     }
 
-
     set(name, value) {
         if (this.state[name] === value) {
             // No change.  Ignore
@@ -105,7 +104,6 @@ class PatrolService extends React.Component {
         });
         this._saveState();
     }
-
 
     _getDefaultState() {
         return this.state;

@@ -10,24 +10,17 @@ import { EventRegister } from 'react-native-event-listeners'
 
 class LoginView extends React.Component {
 
-  constructor(props){
+  constructor(props) {
 
     super(props);
 
-    this.state = { username: '', password: '', error: '', loading: false, loggedIn: false,
-    authData: {}
- };
+    this.state = {
+      username: '', password: '', error: '', loading: false, loggedIn: false,
+      authData: {}
+    };
 
- this.idService = IDService.getInstance();
- this.authService = AuthService.getInstance();
-
-
-  }
-
-
-
-
-  componentDidMount(){
+    this.idService = IDService.getInstance();
+    this.authService = AuthService.getInstance();
 
 
   }
@@ -40,7 +33,7 @@ class LoginView extends React.Component {
     this.authenticate(username, password)
   }
 
-  authenticate(username, password){
+  authenticate(username, password) {
     fetch('http://ec2-54-187-16-98.us-west-2.compute.amazonaws.com:3000/guardauth', {
       method: 'POST',
       headers: {
@@ -51,49 +44,48 @@ class LoginView extends React.Component {
         Username: username,
         Password: password
       })
-    }).then((response) => response.json().then((json) => 
-  {
-          
-    if (json == 'success'){
+    }).then((response) => response.json().then((json) => {
 
-      console.log('sucess');
+      if (json == 'success') {
 
-      EventRegister.emit('log in', 'it works!!!');
+        console.log('sucess');
 
-      this.idService.setCurrentGuard(username);
+        EventRegister.emit('log in', 'it works!!!');
 
-      this.onLoginSuccess();
-  
-      this.props.navigator.push({
-        screen: 'convoyer.HomeView', // unique ID registered with Navigation.registerScreen
-        title: 'CONVOYER', // navigation bar title of the pushed screen (optional)
-        passProps: {}, // Object that will be passed as props to the pushed screen (optional)
-        animated: true, // does the push have transition animation or does it happen immediately (optional)
-        animationType: 'fade', // 'fade' (for both) / 'slide-horizontal' (for android) does the push have different transition animation (optional)
-        backButtonTitle: undefined, // override the back button title (optional)
-        backButtonHidden: true, // hide the back button altogether (optional)
-        navigatorStyle: {}, // override the navigator style for the pushed screen (optional)
-        navigatorButtons: {}, // override the nav buttons for the pushed screen (optional)
-        // enable peek and pop - commited screen will have `isPreview` prop set as true.
-        previewView: undefined, // react ref or node id (optional)
-        previewHeight: undefined, // set preview height, defaults to full height (optional)
-        previewCommit: true, // commit to push preview controller to the navigation stack (optional)
-        previewActions: [{ // action presses can be detected with the `PreviewActionPress` event on the commited screen.
-          id: '', // action id (required)
-          title: '', // action title (required)
-          style: undefined, // 'selected' or 'destructive' (optional)
-          actions: [], // list of sub-actions
-        }],
-      });
-    }  else {
-      this.onLoginFail();
-    }
+        this.idService.setCurrentGuard(username);
 
+        this.onLoginSuccess();
+
+        this.props.navigator.push({
+          screen: 'convoyer.HomeView', // unique ID registered with Navigation.registerScreen
+          title: 'CONVOYER', // navigation bar title of the pushed screen (optional)
+          passProps: {}, // Object that will be passed as props to the pushed screen (optional)
+          animated: true, // does the push have transition animation or does it happen immediately (optional)
+          animationType: 'fade', // 'fade' (for both) / 'slide-horizontal' (for android) does the push have different transition animation (optional)
+          backButtonTitle: undefined, // override the back button title (optional)
+          backButtonHidden: true, // hide the back button altogether (optional)
+          navigatorStyle: {}, // override the navigator style for the pushed screen (optional)
+          navigatorButtons: {}, // override the nav buttons for the pushed screen (optional)
+          // enable peek and pop - commited screen will have `isPreview` prop set as true.
+          previewView: undefined, // react ref or node id (optional)
+          previewHeight: undefined, // set preview height, defaults to full height (optional)
+          previewCommit: true, // commit to push preview controller to the navigation stack (optional)
+          previewActions: [{ // action presses can be detected with the `PreviewActionPress` event on the commited screen.
+            id: '', // action id (required)
+            title: '', // action title (required)
+            style: undefined, // 'selected' or 'destructive' (optional)
+            actions: [], // list of sub-actions
+          }],
+        });
+      } else {
+        this.onLoginFail();
+      }
 
 
-  }));
 
-      
+    }));
+
+
 
   }
 
@@ -132,7 +124,7 @@ class LoginView extends React.Component {
             label="Username"
             value={this.state.username}
             onChangeText={username => this.setState({ username })}
-            autoCapitalize = 'none'
+            autoCapitalize='none'
           />
         </CardSection>
 

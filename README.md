@@ -13,6 +13,15 @@
 ##### 2.4 components Directory
 ##### 2.5 iOS Directory
 ### 3.0 Command Center - Build Contents
+##### 3.1 Overview
+### 4.0 Application Logic
+#### 4.1 Command Center
+##### 4.1.1 app.js
+##### 4.1.2 index.js
+##### 4.1.3 ConvoyerView
+#### 4.2 Convoyer App
+##### 4.2.1 index.js and app.js
+##### 4.2.2 Views
 
 ## 1.0 Tech Stack
 ### 1.1 Convoyer Mobile App
@@ -196,15 +205,15 @@
 
 The **Route Editor**, **Patrol Replay** and **Incident Details** follow the same logic.
 
-### 4.1 Convoyer App
+### 4.2 Convoyer App
 
-#### 4.1.1 index.js and app.js
+#### 4.2.1 index.js and app.js
 
 1. The first place our react native application looks is **index.js**. Here we tell the application to look at **App.js** to begin rendering our app.
 2. **App.js** imports all of the views we will need and registers them with the [react-native-navigation] (https://github.com/wix/react-native-navigation) plugin.
 3. The first screen rendered by our app is the **LoginView**.
 
-#### 4.1.2 Views
+#### 4.2.2 Views
 1. Every react native view must contain a **render()** method.
 2. **render()** renders the log in view to the user. Inside **LoginView.js** there are various helper methods that make the view functional.
 3. When the user authenticates **HomeView.js** is rendered using its **render()** method. The other views are rendered in the same way.

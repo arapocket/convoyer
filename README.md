@@ -14,14 +14,19 @@
 ##### 2.5 iOS Directory
 ### 3.0 Command Center - Build Contents
 ##### 3.1 Overview
-### 4.0 Application Logic
-#### 4.1 Command Center
-##### 4.1.1 app.js
-##### 4.1.2 index.js
-##### 4.1.3 ConvoyerView
-#### 4.2 Convoyer App
-##### 4.2.1 index.js and app.js
-##### 4.2.2 Views
+### 4.0 Spring Boot Server - Build Contents
+#### 4.1 Overview
+### 5.0 Command Center - Application Logic
+##### 5.1 app.js
+##### 5.2 index.js
+##### 5.3 ConvoyerView
+
+### 6.0 Convoyer App - Application Logic
+##### 6.1 index.js and app.js
+##### 6.2 Views
+
+### 7.0 Spring Boot Server - Application Logic
+#### 7.1 Overview
 
 ## 1.0 Tech Stack
 ### 1.1 Convoyer Mobile App
@@ -174,11 +179,18 @@
 
 - **app.js** *The start point to our Express.js application. Our Socket.io server and push notification logic is here. *
 
-## 4.0 Application Logic
+## 4.0 Spring Boot Server - Build Contents
+### 4.1 Overview
 
-### 4.1 Command Center
+*The following files and directories are found in the spring boot server's source directory. Files and directories that are not used during development of CONVOYER are not listed.*
 
-#### 4.1.1 app.js
+- **src/main/java/ch/rasc/upload/PreSignController.java** *Spring boot looks here for our bucket name*.
+
+- **resources/application.yml** *Hold our AWS or Minio credentials.*
+
+## 5.0 Command Center - Application Logic
+
+### 5.1 app.js
 
 1. When we run **node app** in a terminal, this is where our Express.js application's life begins. Here we tell express to route all addresses that begin with **/** to go to our **index.js** file to see our list of routes. Say someone types **commandcenter.com/apples** in their address bar. Express will look for the apples route in index.js to recieve instructions on what to do next, whether it's rendering a page or querying our database.
 - **initalizeSockets()** *starts our Socket.io server, which is used for our messaging and any other features that require real-time updates, such as location tracking and incident alerts.*
@@ -190,14 +202,14 @@
 - When 'patrol start' is heard on our socket server, **patrolPost()** is called to post the patrol data to the database.
 - When 'ended patrol' is heard on our socket server, **patrolPut()** is called to update the patrol as not active anymore.
 
-#### 4.1.2 index.js
+### 5.2 index.js
 
 1. Whenever a Command Center user opens Convoyer's Live View, our application looks inside **index.js** for the GET route, **/convoyerliveview**.
 2. The application sees that the **getConvoyer** method of **ConvoyerController** should be called.
 3. **getConvoyer** calls several methods in **ConvoyerModel**. 
 4. After the last method, **ConvoyerModel.getCurrentCheckpoints** is finished running, **ConvoyerView** is rendered.
 
-#### 4.1.3 ConvoyerView
+### 5.3 ConvoyerView
 
 1. **ConvoyerView** contains an object with an address to the **/convoyerlivemap** route. Again, the application looks inside **index.js** for instructions on what to do next.
 2. **ConvoyerMapController** calls several methods in **ConvoyerMapModel** and then renders the **ConvoyerMapView**.
@@ -205,16 +217,26 @@
 
 The **Route Editor**, **Patrol Replay** and **Incident Details** follow the same logic.
 
-### 4.2 Convoyer App
+## 6.0 Convoyer App - Application Logic
 
-#### 4.2.1 index.js and app.js
+### 6.1 index.js and app.js
 
 1. The first place our react native application looks is **index.js**. Here we tell the application to look at **App.js** to begin rendering our app.
 2. **App.js** imports all of the views we will need and registers them with the [react-native-navigation] (https://github.com/wix/react-native-navigation) plugin.
 3. The first screen rendered by our app is the **LoginView**.
 
-#### 4.2.2 Views
+### 6.2 Views
 1. Every react native view must contain a **render()** method.
 2. **render()** renders the log in view to the user. Inside **LoginView.js** there are various helper methods that make the view functional.
 3. When the user authenticates **HomeView.js** is rendered using its **render()** method. The other views are rendered in the same way.
 4. Views call the services in the **components/lib** directory often for all kinds of business logic.
+
+## 7.0 Spring Boot Server - Application Logic
+
+### 7.1 Overview
+
+1. Our Spring Boot Server is started by running **mvn spring-boot:run** from the server's root directory. 
+2. While using the Convoyer Mobile App, the user submits incidents through the **IncidentView**. When an incident contains media, the **fetchPresignUrl()** method is called.
+2. fetchPresignUrl calls the API endpoint **:8080/getPreSignUrl**
+3. Spring Boot Server returns a **presigned url** to the client so we don't have to give out our AWS/minio credentials. 
+4. **IncidentView** uses the **presigned URL** to upload media to our AWS or Minio bucket.

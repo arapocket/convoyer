@@ -28,6 +28,8 @@
 ### 7.0 Spring Boot Server - Application Logic
 #### 7.1 Overview
 
+### 8.0 Error Fixes
+
 ## 1.0 Tech Stack
 ### 1.1 Convoyer Mobile App
 
@@ -240,3 +242,7 @@ The **Route Editor**, **Patrol Replay** and **Incident Details** follow the same
 2. fetchPresignUrl calls the API endpoint **:8080/getPreSignUrl**
 3. Spring Boot Server returns a **presigned url** to the client so we don't have to give out our AWS/minio credentials. 
 4. **IncidentView** uses the **presigned URL** to upload media to our AWS or Minio bucket.
+
+## 8.0 Error Fixes
+
+Due to the nature of our development environment, you might encounter a number of errors caused by faulty code in various plugins we will be using. I will outline the most common errors you will face, as well as how to approach new errors.

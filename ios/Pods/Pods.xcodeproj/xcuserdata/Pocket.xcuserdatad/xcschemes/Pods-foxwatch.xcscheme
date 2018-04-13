@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'BDF1A26CA8D9D828B2F7C1B203CB4B30'
-               BlueprintName = 'Pods-foxwatch'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-foxwatch.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BDF1A26CA8D9D828B2F7C1B203CB4B30"
+               BlueprintName = "Pods-foxwatch"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libPods-foxwatch.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

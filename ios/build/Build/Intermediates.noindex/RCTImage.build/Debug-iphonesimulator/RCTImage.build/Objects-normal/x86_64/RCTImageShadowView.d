@@ -2,6 +2,7 @@ dependencies: \
   /Users/Pocket/convoyer/node_modules/react-native/Libraries/Image/RCTImageShadowView.m \
   /Users/Pocket/convoyer/node_modules/react-native/Libraries/Image/RCTImageShadowView.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/Pocket/convoyer/node_modules/react-native-background-fetch/ios/RNBackgroundFetch/TSBackgroundFetch.framework/Modules/module.modulemap \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \

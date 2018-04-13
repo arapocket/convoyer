@@ -1,49 +1,40 @@
 PODS:
-  - React (0.52.2):
-    - React/Core (= 0.52.2)
+  - React (0.54.2):
+    - React/Core (= 0.54.2)
   - react-native-maps (0.20.1):
     - React
-  - React/BatchedBridge (0.52.2):
+  - React/Core (0.54.2):
+    - yoga (= 0.54.2.React)
+  - React/fishhook (0.54.2)
+  - React/RCTActionSheet (0.54.2):
     - React/Core
-    - React/cxxreact_legacy
-  - React/Core (0.52.2):
-    - yoga (= 0.52.2.React)
-  - React/cxxreact_legacy (0.52.2):
-    - React/jschelpers_legacy
-    - React/jsinspector_legacy
-  - React/fishhook (0.52.2)
-  - React/jschelpers_legacy (0.52.2)
-  - React/jsinspector_legacy (0.52.2)
-  - React/RCTActionSheet (0.52.2):
+  - React/RCTAnimation (0.54.2):
     - React/Core
-  - React/RCTAnimation (0.52.2):
+  - React/RCTBlob (0.54.2):
     - React/Core
-  - React/RCTBlob (0.52.2):
+  - React/RCTGeolocation (0.54.2):
     - React/Core
-  - React/RCTGeolocation (0.52.2):
-    - React/Core
-  - React/RCTImage (0.52.2):
+  - React/RCTImage (0.54.2):
     - React/Core
     - React/RCTNetwork
-  - React/RCTLinkingIOS (0.52.2):
+  - React/RCTLinkingIOS (0.54.2):
     - React/Core
-  - React/RCTNetwork (0.52.2):
+  - React/RCTNetwork (0.54.2):
     - React/Core
-  - React/RCTSettings (0.52.2):
+  - React/RCTSettings (0.54.2):
     - React/Core
-  - React/RCTText (0.52.2):
+  - React/RCTText (0.54.2):
     - React/Core
-  - React/RCTVibration (0.52.2):
+  - React/RCTVibration (0.54.2):
     - React/Core
-  - React/RCTWebSocket (0.52.2):
+  - React/RCTWebSocket (0.54.2):
     - React/Core
     - React/fishhook
     - React/RCTBlob
-  - yoga (0.52.2.React)
+  - yoga (0.54.2.React)
 
 DEPENDENCIES:
   - react-native-maps (from `../node_modules/react-native-maps`)
-  - React/BatchedBridge (from `../node_modules/react-native`)
   - React/Core (from `../node_modules/react-native`)
   - React/RCTActionSheet (from `../node_modules/react-native`)
   - React/RCTAnimation (from `../node_modules/react-native`)
@@ -59,17 +50,17 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   React:
-    :path: ../node_modules/react-native
+    :path: "../node_modules/react-native"
   react-native-maps:
-    :path: ../node_modules/react-native-maps
+    :path: "../node_modules/react-native-maps"
   yoga:
-    :path: ../node_modules/react-native/ReactCommon/yoga/yoga.podspec
+    :path: "../node_modules/react-native/ReactCommon/yoga/yoga.podspec"
 
 SPEC CHECKSUMS:
-  React: 001655c2b9dfc2f55e8271c60098d4f4227fb1b3
-  react-native-maps: 6ab4fa4f78e88824ec300de0eb412f0556b6a84b
-  yoga: 18f5bf8fba4b4a31ca4b42ac931fce5537e1923c
+  React: c237e42de9c70e5cac6eeb52b4cfd3a0910c1f00
+  react-native-maps: 066c2afcc89e18726377bcc685315f989ca22449
+  yoga: 55da126afc384965b96bff46652464373b330add
 
-PODFILE CHECKSUM: 975470dc955280f82ab803f163b7f2556a184b1e
+PODFILE CHECKSUM: 38d39d0b7231fb9d642616f588cab4cfc3302905
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.0

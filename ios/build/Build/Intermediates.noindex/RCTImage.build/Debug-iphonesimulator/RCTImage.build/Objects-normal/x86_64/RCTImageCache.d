@@ -1,6 +1,7 @@
 dependencies: \
   /Users/Pocket/convoyer/node_modules/react-native/Libraries/Image/RCTImageCache.m \
   /Users/Pocket/convoyer/node_modules/react-native/Libraries/Image/RCTImageCache.h \
+  /Users/Pocket/convoyer/node_modules/react-native-background-fetch/ios/RNBackgroundFetch/TSBackgroundFetch.framework/Modules/module.modulemap \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTImageLoader.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \

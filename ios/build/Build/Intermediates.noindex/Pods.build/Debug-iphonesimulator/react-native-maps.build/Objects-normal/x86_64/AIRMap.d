@@ -14,9 +14,9 @@ dependencies: \
   /Users/Pocket/convoyer/ios/Pods/Headers/Public/React/React/RCTUtils.h \
   /Users/Pocket/convoyer/ios/Pods/Headers/Public/React/React/RCTPointerEvents.h \
   /Users/Pocket/convoyer/ios/Pods/Headers/Public/React/React/RCTTextDecorationLineType.h \
-  /Users/Pocket/convoyer/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.h \
-  /Users/Pocket/convoyer/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.h \
-  /Users/Pocket/convoyer/node_modules/react-native/ReactCommon/yoga/yoga/YGMacros.h \
+  /Users/Pocket/convoyer/ios/Pods/Headers/Private/yoga/Yoga.h \
+  /Users/Pocket/convoyer/ios/Pods/Headers/Private/yoga/YGEnums.h \
+  /Users/Pocket/convoyer/ios/Pods/Headers/Private/yoga/YGMacros.h \
   /Users/Pocket/convoyer/ios/Pods/Headers/Public/React/React/RCTEventDispatcher.h \
   /Users/Pocket/convoyer/ios/Pods/Headers/Public/React/React/RCTBridge.h \
   /Users/Pocket/convoyer/ios/Pods/Headers/Public/React/React/RCTBridgeDelegate.h \

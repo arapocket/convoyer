@@ -1,6 +1,7 @@
 dependencies: \
   /Users/Pocket/convoyer/node_modules/react-native-navigation/ios/RCCToolBar/RCCToolBar.m \
   /Users/Pocket/convoyer/node_modules/react-native-navigation/ios/RCCToolBar/RCCToolBar.h \
+  /Users/Pocket/convoyer/node_modules/react-native-background-fetch/ios/RNBackgroundFetch/TSBackgroundFetch.framework/Modules/module.modulemap \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \

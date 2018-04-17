@@ -8,6 +8,7 @@ import {
   Text,
   TouchableOpacity,
   Linking,
+  Alert
 } from 'react-native';
 import { EventRegister } from 'react-native-event-listeners'
 import QRCodeScanner from 'react-native-qrcode-scanner';
@@ -74,10 +75,15 @@ class QRView extends React.Component {
 
     EventRegister.emit('new location', location);
 
+    Alert.alert(
+      'Location Manually Recorded at ' + location.description
+    )
 
     } catch (e) {
-      // alert("There was a problem with the QR code, please try again");
-      alert(e);
+      Alert.alert(
+        'Invalid QR Code',
+        'Please make sure you are scanning a QR sticker that was installed by Mobss.',
+      )
     }
     
 

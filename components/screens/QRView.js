@@ -97,14 +97,14 @@ class QRView extends React.Component {
         onRead={this.onSuccess.bind(this)}
         topContent={
           <Text style={styles.centerText}>
-            Go to <Text style={styles.textBold}>wikipedia.org/wiki/QR_code</Text> on your computer and scan the QR code.
+            Scan a <Text style={styles.textBold}>QR code</Text> to record your location manually.
           </Text>
         }
         bottomContent={
           <TouchableOpacity style={styles.buttonTouchable}
             onPress={this.onPressOK}
           >
-            <Text style={styles.buttonText}>OK. Got it!</Text>
+            <Text style={styles.buttonText}>Close Camera</Text>
           </TouchableOpacity>
         }
       />

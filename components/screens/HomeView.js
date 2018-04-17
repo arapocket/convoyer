@@ -778,8 +778,9 @@ class HomeView extends React.Component {
         <View style={styles.topToolbar}>
           {this.incidentButton()}
           {this.chatButton()}
-          {this.optionsButton()}
           {this.qrButton()}
+          {this.optionsButton()}
+          
           <Text style={commonStyles.toolbarTitle}>{this.state.title}</Text>
           <Switch style={styles.switchContainer} onValueChange={() => this.onClickEnable()} value={this.authService.isEnabled()} />
         </View>

@@ -71,7 +71,9 @@ Navigation.registerComponent('convoyer.QRView', () => QRView);
   Navigation.startSingleScreenApp({
     screen: {
       screen: startPage,
-      title: 'CONVOYER'    }
+      title: 'CONVOYER',
+      navigatorStyle: {
+        navBarTextColor: Config.colors.white      }    }
   });
 
 

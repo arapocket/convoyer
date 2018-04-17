@@ -561,8 +561,8 @@ class AuthService extends React.Component {
   }
 
   setCurrentLocation(location) {
-    this.set('currentLat', location.coords.lat);
-    this.set('currentLng', location.coords.lng);
+    this.set('currentLat', location.coords.latitude);
+    this.set('currentLng', location.coords.longitude);
   }
 
   resetState() {

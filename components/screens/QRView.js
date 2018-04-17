@@ -51,14 +51,17 @@ class QRView extends React.Component {
       animationType: 'slide-down' // 'none' / 'slide-down' , dismiss animation for the modal (optional, default 'slide-down')
     });
 
-    let location = {
-      coords: {
-        latitude: 34.1483695,
-        longitude: -118.2702035
-      }
-    }
+/**
+ HERE IS THE FORMAT TO FOLLOW FOR QR CODE LOCATIONS
+ 
+ {"coords":{"longitude":-118.2702035, "latitude":  34.1483695}}
+ 
+ */
 
-    // alert(JSON.stringify(location));
+    try{
+    
+      let location = JSON.parse(e.data);
+
 
     this.authService.incrementCoordSequence();
     this.authService.coordPut(location);
@@ -70,6 +73,13 @@ class QRView extends React.Component {
     }
 
     EventRegister.emit('new location', location);
+
+
+    } catch (e) {
+      // alert("There was a problem with the QR code, please try again");
+      alert(e);
+    }
+    
 
 
 

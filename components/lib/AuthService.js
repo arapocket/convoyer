@@ -45,7 +45,9 @@ class AuthService extends React.Component {
       coordSeq: 1,
       idData: {},
       messages: [],
-      isFirstLocation: true
+      isFirstLocation: true,
+      currentLat: 0,
+      currentLng: 0
     };
 
     this.bgService = BGService.getInstance();
@@ -454,6 +456,8 @@ class AuthService extends React.Component {
 
     console.log('coordPut(location) called');
 
+    
+
     fetch('http://ec2-54-187-16-98.us-west-2.compute.amazonaws.com:3000/coordinates', {
       method: 'PUT',
       headers: {
@@ -470,8 +474,6 @@ class AuthService extends React.Component {
   }
 
   coordPost(location) {
-
-    console.log('coordPost called');
 
     this.idService.createCoordID();
 
@@ -509,7 +511,7 @@ class AuthService extends React.Component {
     })
   }
 
-  routePut(){
+  routePut() {
 
 
     fetch('http://ec2-54-187-16-98.us-west-2.compute.amazonaws.com:3000/queueroute', {
@@ -547,6 +549,20 @@ class AuthService extends React.Component {
 
   getMessages() {
     return this.state.messages;
+  }
+
+  getCurrentLocation() {
+    return {
+      coords: {
+        lat: this.state.currentLat,
+        lng: this.state.currentLng
+      }
+    }
+  }
+
+  setCurrentLocation(location) {
+    this.set('currentLat', location.coords.lat);
+    this.set('currentLng', location.coords.lng);
   }
 
   resetState() {

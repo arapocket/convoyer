@@ -1,6 +1,5 @@
 dependencies: \
   /Users/Pocket/convoyer/node_modules/react-native-navigation/ios/Helpers/RCTConvert+UIBarButtonSystemItem.m \
-  /Users/Pocket/convoyer/node_modules/react-native-background-fetch/ios/RNBackgroundFetch/TSBackgroundFetch.framework/Modules/module.modulemap \
   /Users/Pocket/convoyer/node_modules/react-native-navigation/ios/Helpers/RCTConvert+UIBarButtonSystemItem.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \

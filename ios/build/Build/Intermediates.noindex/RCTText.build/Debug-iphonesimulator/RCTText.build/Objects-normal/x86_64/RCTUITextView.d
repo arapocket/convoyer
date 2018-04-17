@@ -1,7 +1,6 @@
 dependencies: \
   /Users/Pocket/convoyer/node_modules/react-native/Libraries/Text/TextInput/Multiline/RCTUITextView.m \
   /Users/Pocket/convoyer/node_modules/react-native/Libraries/Text/TextInput/Multiline/RCTUITextView.h \
-  /Users/Pocket/convoyer/node_modules/react-native-background-fetch/ios/RNBackgroundFetch/TSBackgroundFetch.framework/Modules/module.modulemap \
   /Users/Pocket/convoyer/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputViewProtocol.h \
   /Users/Pocket/convoyer/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegate.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \

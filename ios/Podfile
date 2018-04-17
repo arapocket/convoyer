@@ -22,6 +22,8 @@ target 'foxwatch' do
 
   pod 'react-native-maps', path: rn_maps_path
 
+  pod 'ReactNativePermissions', :path => '../node_modules/react-native-permissions'
+
 end
 
 post_install do |installer|

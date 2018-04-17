@@ -11,6 +11,7 @@ import {
 import EventEmitter from 'EventEmitter';
 import { EventRegister } from 'react-native-event-listeners'
 import Icon from 'react-native-vector-icons/Ionicons';
+import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import MapView from 'react-native-maps';
 import ActionButton from 'react-native-action-button';
 import Button from 'apsl-react-native-button'
@@ -24,6 +25,7 @@ import commonStyles from '../styles';
 import BottomToolbarView from '../BottomToolbarView';
 import IncidentView from './IncidentView'
 import ChatView from './ChatView'
+import QRView from './QRView';
 import { StyleProvider } from "native-base";
 import BackgroundFetch from "react-native-background-fetch";
 var MAP_MARKER_IMAGE = require('../../images/location_marker.png');
@@ -31,8 +33,8 @@ var MAP_MARKER_IMAGE = require('../../images/location_marker.png');
 // const LONGITUDE_DELTA = 0.00099;
 // const LATITUDE_DELTA = 0.0015;
 // const LONGITUDE_DELTA = 0.0015;
-const LATITUDE_DELTA = 0.002;
-const LONGITUDE_DELTA = 0.002;
+const LATITUDE_DELTA = 0.01;
+const LONGITUDE_DELTA = 0.01;
 const STATIONARY_REGION_FILL_COLOR = "rgba(200,0,0,0.2)"
 const STATIONARY_REGION_STROKE_COLOR = "rgba(200,0,0,0.2)"
 const POLYLINE_STROKE_COLOR = "rgba(32,64,255,0.6)";
@@ -88,8 +90,7 @@ class HomeView extends React.Component {
     this.onPressOptionsButton = this.onPressOptionsButton.bind(this);
     this.loadCurrentRoutes = this.loadCurrentRoutes.bind(this);
     this.startTracking = this.startTracking.bind(this);
-    // this.disableCurrentRoute = this.disableCurrentRoute.bind(this);
-
+    this.onPressQR = this.onPressQR.bind(this);
 
     this.props.navigator.toggleNavBar({
       to: 'hidden', // required, 'hidden' = hide navigation bar, 'shown' = show navigation bar
@@ -487,6 +488,8 @@ class HomeView extends React.Component {
           this.addMarker(location);
           this.authService.incrementCoordSequence();
           this.authService.coordPut(location);
+          this.authService.setCurrentLocation(location);
+
           if (this.authService.isFirstLocation()) {
             this.authService.set('isFirstLocation', false);
             EventRegister.emit('first location', location);
@@ -511,9 +514,7 @@ class HomeView extends React.Component {
 
   locationIsAccurate(location) {
 
-
     let coords = this.state.coordinates;
-
 
     if (coords.length > 0) {
 
@@ -700,6 +701,30 @@ class HomeView extends React.Component {
     });
   }
 
+
+  onPressQR() {
+    this.bgService.playSound('OPEN');
+    this.props.navigator.showModal({
+      screen: "convoyer.QRView", // unique ID registered with Navigation.registerScreen
+      title: "CONVOYER", // title of the screen as appears in the nav bar (optional)
+      passProps: {}, // simple serializable object that will pass as props to the modal (optional)
+      animationType: 'slide-up' // 'none' / 'slide-up' , appear animation for the modal (optional, default 'slide-up')
+    });
+  }
+
+  qrButton() {
+
+    if (this.authService.isEnabled()) {
+      let button = <FontAwesome.Button onPress={this.onPressQR} name={Config.icons.qr} color="#000" backgroundColor={Config.colors.orange} underlayColor="transparent" size={22} style={[styles.incidentButton]} iconStyle={{ marginRight: 0 }} padding={10} marginRight={10} />
+
+      return (
+        <View >
+          {button}
+        </View>
+      );
+    }
+  }
+
   chatButton() {
 
     if (this.authService.isEnabled()) {
@@ -754,6 +779,7 @@ class HomeView extends React.Component {
           {this.incidentButton()}
           {this.chatButton()}
           {this.optionsButton()}
+          {this.qrButton()}
           <Text style={commonStyles.toolbarTitle}>{this.state.title}</Text>
           <Switch style={styles.switchContainer} onValueChange={() => this.onClickEnable()} value={this.authService.isEnabled()} />
         </View>

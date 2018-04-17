@@ -1,7 +1,7 @@
 dependencies: \
   /Users/Pocket/convoyer/node_modules/react-native-background-fetch/ios/RNBackgroundFetch/RNBackgroundFetch.m \
   /Users/Pocket/convoyer/node_modules/react-native-background-fetch/ios/RNBackgroundFetch/RNBackgroundFetch.h \
-  /Users/Pocket/convoyer/node_modules/react-native-background-fetch/ios/RNBackgroundFetch/TSBackgroundFetch.framework/Modules/module.modulemap \
+  RNBackgroundFetch/TSBackgroundFetch.framework/Modules/module.modulemap \
   ../../react-native/React/Modules/RCTEventEmitter.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \

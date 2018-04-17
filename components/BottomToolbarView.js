@@ -8,12 +8,9 @@ import {
 import Config from './config';
 import Icon from 'react-native-vector-icons/Ionicons';
 import Button from 'apsl-react-native-button'
-
 import commonStyles from './styles';
-
 import BGService from './lib/BGService';
 import AuthService from './lib/AuthService';
-
 
 /**
 * This is the common shared bottom-toolbar.  It's passed the BackgroundGeolocation instance
@@ -21,6 +18,10 @@ import AuthService from './lib/AuthService';
 * and location #provider.
 */
 class BottomToolbarView extends React.Component {
+
+  static navigatorStyle = {
+    navBarBackgroundColor: Config.colors.orange
+  };
 
   constructor(props) {
     super(props);
@@ -38,9 +39,9 @@ class BottomToolbarView extends React.Component {
       isChangingPace: false,
       odometer: (0 / 1).toFixed(1),
       currentActivity: 'unknown',
-      currentProvider: undefined,
-      showIncidentModal: false
+      currentProvider: undefined
     };
+
   }
 
   componentDidMount() {
@@ -159,14 +160,14 @@ class BottomToolbarView extends React.Component {
   routeButton() {
 
 
-            // {/* <Icon.Button
-            // style={styles.btnNavigate}
-            // color={Config.colors.off_white}
-            // backgroundColor="transparent"
-            // underlayColor="transparent" size={45}
-            // name={Config.icons.flag}
-            // iconStyle={{ marginRight: 0 }}
-            // onPress={() => this.onClickFinishedRoute()} /> */}
+    // {/* <Icon.Button
+    // style={styles.btnNavigate}
+    // color={Config.colors.off_white}
+    // backgroundColor="transparent"
+    // underlayColor="transparent" size={45}
+    // name={Config.icons.flag}
+    // iconStyle={{ marginRight: 0 }}
+    // onPress={() => this.onClickFinishedRoute()} /> */}
 
     if (this.authService.isEnabled()) {
       let button = <Icon.Button onPress={this.onPressFinishedRoute} name={Config.icons.flag} color="#fff" backgroundColor={Config.colors.orange} underlayColor="transparent" size={45} style={[styles.btnNavigate]} iconStyle={{ marginRight: 0 }} padding={10} marginRight={10} />
@@ -181,20 +182,24 @@ class BottomToolbarView extends React.Component {
 
   }
 
-  onPressFinishedRoute(){
-    
-Alert.alert(
-  'Start Next Route?',
-  'Are you sure you want to mark your current route as completed?',
-  [
-    {text: 'No', onPress: () => {
-      
-    }},
-    {text: 'Yes', onPress: () => {
-      this.authService.routePut();
-    }},
-  ]
-)
+  onPressFinishedRoute() {
+
+    Alert.alert(
+      'Start Next Route?',
+      'Are you sure you want to mark your current route as completed?',
+      [
+        {
+          text: 'No', onPress: () => {
+
+          }
+        },
+        {
+          text: 'Yes', onPress: () => {
+            this.authService.routePut();
+          }
+        },
+      ]
+    )
   }
 
   render() {

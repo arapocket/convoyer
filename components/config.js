@@ -8,6 +8,7 @@ import {
  } from 'react-native';
 
 import Icon from 'react-native-vector-icons/Ionicons';
+import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import Styles from './styles';
 
 var config = (function() {
@@ -47,6 +48,7 @@ var config = (function() {
       navigate: 'md-locate',
       load: 'ios-sync',
       flag: 'ios-flag',
+      qr: 'qrcode',
 
       spinner: <Icon name="ios-sync" size={20} style={{marginRight:3, alignSelf: 'center'}} />,
       disabled: <Icon name="ios-warning" size={15} style={{color: "#D9534F"}} />,

@@ -1,7 +1,6 @@
 dependencies: \
   /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/RNBackgroundGeolocation.m \
   /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/RNBackgroundGeolocation.h \
-  /Users/Pocket/convoyer/node_modules/react-native-background-fetch/ios/RNBackgroundFetch/TSBackgroundFetch.framework/Modules/module.modulemap \
   /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Modules/module.modulemap \
   /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSGeofenceEvent.h \
   /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSPowerSaveChangeEvent.h \

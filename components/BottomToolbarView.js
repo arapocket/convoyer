@@ -20,7 +20,7 @@ import AuthService from './lib/AuthService';
 class BottomToolbarView extends React.Component {
 
   static navigatorStyle = {
-    navBarBackgroundColor: Config.colors.orange
+    navBarBackgroundColor: Config.colors.blue
   };
 
   constructor(props) {
@@ -170,7 +170,7 @@ class BottomToolbarView extends React.Component {
     // onPress={() => this.onClickFinishedRoute()} /> */}
 
     if (this.authService.isEnabled()) {
-      let button = <Icon.Button onPress={this.onPressFinishedRoute} name={Config.icons.flag} color="#fff" backgroundColor={Config.colors.orange} underlayColor="transparent" size={45} style={[styles.btnNavigate]} iconStyle={{ marginRight: 0 }} padding={10} marginRight={10} />
+      let button = <Icon.Button onPress={this.onPressFinishedRoute} name={Config.icons.flag} color="#fff" backgroundColor={Config.colors.blue} underlayColor="transparent" size={45} style={[styles.btnNavigate]} iconStyle={{ marginRight: 0 }} padding={10} marginRight={10} />
 
       return (
         <View >
@@ -230,7 +230,7 @@ var styles = StyleSheet.create({
   bottomToolbar: {
     borderTopColor: 'black',
     borderTopWidth: 2,
-    backgroundColor: Config.colors.orange,
+    backgroundColor: Config.colors.blue,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',

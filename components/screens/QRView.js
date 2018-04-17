@@ -55,7 +55,8 @@ class QRView extends React.Component {
 /**
  HERE IS THE FORMAT TO FOLLOW FOR QR CODE LOCATIONS
  
- {"coords":{"longitude":-118.2702035, "latitude":  34.1483695}}
+  {"coords":{"longitude":-118.2702035, "latitude":  34.1483695}, "description": "Ara's House"}
+
  
  */
 

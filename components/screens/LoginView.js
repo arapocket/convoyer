@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { Text } from 'react-native';
+import { Text, View } from 'react-native';
 
 import { Button, Card, CardSection, Input, Spinner } from '../common';
 
 import AuthService from '../lib/AuthService';
 import IDService from '../lib/IDService';
+import Config from '../config';
 
 import { EventRegister } from 'react-native-event-listeners'
 
@@ -22,6 +23,10 @@ class LoginView extends React.Component {
     this.idService = IDService.getInstance();
     this.authService = AuthService.getInstance();
 
+    this.props.navigator.setStyle({
+      navBarBackgroundColor: Config.colors.blue,
+      navBarTextColor: Config.colors.white
+    });    
 
   }
 
@@ -64,8 +69,9 @@ class LoginView extends React.Component {
           animationType: 'fade', // 'fade' (for both) / 'slide-horizontal' (for android) does the push have different transition animation (optional)
           backButtonTitle: undefined, // override the back button title (optional)
           backButtonHidden: true, // hide the back button altogether (optional)
-          navigatorStyle: {}, // override the navigator style for the pushed screen (optional)
           navigatorButtons: {}, // override the nav buttons for the pushed screen (optional)
+          navBarBackgroundColor: Config.colors.blue,
+          navBarTextColor: Config.colors.white,
           // enable peek and pop - commited screen will have `isPreview` prop set as true.
           previewView: undefined, // react ref or node id (optional)
           previewHeight: undefined, // set preview height, defaults to full height (optional)
@@ -109,7 +115,7 @@ class LoginView extends React.Component {
     }
 
     return (
-      <Button onPress={this.onButtonPress.bind(this)}>
+      <Button style={styles.buttonStyle} onPress={this.onButtonPress.bind(this)}>
         Log in
       </Button>
     );
@@ -117,44 +123,62 @@ class LoginView extends React.Component {
 
   render() {
     return (
-      <Card>
-        <CardSection>
-          <Input
-            placeholder="username"
-            label="Username"
-            value={this.state.username}
-            onChangeText={username => this.setState({ username })}
-            autoCapitalize='none'
-          />
-        </CardSection>
+      <View style={styles.container}>
+        <Card >
+          <CardSection >
+            <Input
+              placeholder="username"
+              label="Username"
+              value={this.state.username}
+              onChangeText={username => this.setState({ username })}
+              autoCapitalize='none'
+            />
+          </CardSection>
 
-        <CardSection>
-          <Input
-            secureTextEntry
-            placeholder="password"
-            label="Password"
-            value={this.state.password}
-            onChangeText={password => this.setState({ password })}
-          />
-        </CardSection>
+          <CardSection >
+            <Input
+              secureTextEntry
+              placeholder="password"
+              label="Password"
+              value={this.state.password}
+              onChangeText={password => this.setState({ password })}
+            />
+          </CardSection>
 
-        <Text style={styles.errorTextStyle}>
-          {this.state.error}
-        </Text>
+          <Text style={styles.errorTextStyle}>
+            {this.state.error}
+          </Text>
 
-        <CardSection>
-          {this.renderButton()}
-        </CardSection>
-      </Card>
+          <CardSection >
+            {this.renderButton()}
+          </CardSection>
+        </Card>
+      </View>
     );
   }
 }
 
 const styles = {
+  container: {
+    flex: 1,
+    flexDirection: 'column',
+    paddingTop: 30,
+    justifyContent: 'space-between',
+    backgroundColor: Config.colors.off_white
+
+  },
   errorTextStyle: {
     fontSize: 20,
     alignSelf: 'center',
     color: 'red'
+  },
+  buttonStyle: {
+    borderTopWidth: 2,
+    borderTopColor: Config.colors.black,
+    borderBottomWidth: 2,
+    borderBottomColor: Config.colors.black,
+    marginBottom: 5,
+    backgroundColor: Config.colors.blue,
   }
 };
 

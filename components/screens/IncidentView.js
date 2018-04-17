@@ -55,7 +55,7 @@ import MovToMp4 from 'react-native-mov-to-mp4';
 class IncidentView extends React.Component {
 
   static navigatorStyle = {
-    navBarBackgroundColor: Config.colors.orange
+    navBarBackgroundColor: Config.colors.blue
   };
 
   constructor(props) {
@@ -515,7 +515,7 @@ class IncidentView extends React.Component {
               onPress={this.onPressPhotoButton.bind(this)}
               backgroundColor="transparent"
               underlayColor="transparent"
-              color={Config.colors.black}
+              color={Config.colors.white}
               paddingTop={15}
             >Take Photo
             </Icon.Button>
@@ -525,7 +525,7 @@ class IncidentView extends React.Component {
               onPress={this.onPressVideoButton.bind(this)}
               backgroundColor="transparent"
               underlayColor="transparent"
-              color={Config.colors.black}
+              color={Config.colors.white}
               paddingTop={15}
             >Record Video
             </Icon.Button>
@@ -537,7 +537,7 @@ class IncidentView extends React.Component {
               onPress={this.onPressSubmitButton.bind(this)}
               backgroundColor="transparent"
               underlayColor="transparent"
-              color={Config.colors.black}
+              color={Config.colors.white}
               paddingTop={15}
             >Submit
                 </Icon.Button>
@@ -591,12 +591,14 @@ var styles = StyleSheet.create({
   form: {
   },
   headerItem: {
-    backgroundColor: Config.colors.light_orange
+    backgroundColor: Config.colors.blue
   },
   header: {
     fontSize: 18,
     fontWeight: 'bold',
-    textAlign: 'left'
+    textAlign: 'left',
+    color: Config.colors.white
+
   },
   label: {
     flex: 1
@@ -614,7 +616,8 @@ var styles = StyleSheet.create({
     backgroundColor: '#ff3824'
   },
   blueButton: {
-    backgroundColor: '#0076ff'
+    backgroundColor: Config.colors.blue,
+    color: Config.colors.white
   },
   formItem: {
     backgroundColor: Config.colors.off_white
@@ -637,7 +640,7 @@ var styles = StyleSheet.create({
     borderBottomWidth: 2,
     borderBottomColor: Config.colors.black,
     marginBottom: 5,
-    backgroundColor: Config.colors.light_blue,
+    backgroundColor: Config.colors.blue
   },
   textInput: {
     backgroundColor: Config.colors.white,

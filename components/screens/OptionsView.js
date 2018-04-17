@@ -168,7 +168,7 @@ class OptionsView extends React.Component {
               backgroundColor="transparent"
               underlayColor="transparent"
               onPress={this.onLogout.bind(this)}
-              color={Config.colors.black}
+              color={Config.colors.white}
               paddingTop={15}
             >Log Out
             </Icon.Button>
@@ -218,7 +218,7 @@ var styles = StyleSheet.create({
   form: {
   },
   headerItem: {
-    backgroundColor: Config.colors.light_orange
+    backgroundColor: Config.colors.blue
   },
   header: {
     fontSize: 18,
@@ -264,7 +264,7 @@ var styles = StyleSheet.create({
     borderBottomWidth: 2,
     borderBottomColor: Config.colors.black,
     marginBottom: 5,
-    backgroundColor: Config.colors.light_blue,
+    backgroundColor: Config.colors.blue,
   }
 });
 

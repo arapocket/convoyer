@@ -43,7 +43,7 @@ import Config from '../config';
 class ChatView extends React.Component {
 
   static navigatorStyle = {
-    navBarBackgroundColor: Config.colors.orange
+    navBarBackgroundColor: Config.colors.blue
   };
 
   constructor(props) {
@@ -194,7 +194,7 @@ class ChatView extends React.Component {
               onPress={this.onPressSubmitButton.bind(this)}
               backgroundColor="transparent"
               underlayColor="transparent"
-              color={Config.colors.black}
+              color={Config.colors.white}
               paddingTop={15}
             >Send
             </Icon.Button>
@@ -244,7 +244,7 @@ var styles = StyleSheet.create({
   form: {
   },
   headerItem: {
-    backgroundColor: Config.colors.light_orange
+    backgroundColor: Config.colors.blue
   },
   header: {
     fontSize: 18,
@@ -290,7 +290,7 @@ var styles = StyleSheet.create({
     borderBottomWidth: 2,
     borderBottomColor: Config.colors.black,
     marginBottom: 5,
-    backgroundColor: Config.colors.light_blue,
+    backgroundColor: Config.colors.blue,
   },
   textInput: {
     backgroundColor: Config.colors.white,

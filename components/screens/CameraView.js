@@ -24,7 +24,7 @@ import PatrolService from '../lib/PatrolService';
 class CameraView extends React.Component {
 
     static navigatorStyle = {
-        navBarBackgroundColor: Config.colors.orange
+        navBarBackgroundColor: Config.colors.blue
     };
 
     constructor(props) {
@@ -152,7 +152,7 @@ const styles = StyleSheet.create({
 
         flexDirection: "column",
         flex: 1,
-        backgroundColor: Config.colors.orange,
+        backgroundColor: Config.colors.blue,
         paddingTop: 50
 
     },

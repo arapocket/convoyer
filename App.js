@@ -30,6 +30,7 @@ import LoginView from './components/screens/LoginView';
 import OptionsView from './components/screens/OptionsView';
 import QRView from './components/screens/QRView';
 
+
 var startPage = 'convoyer.LoginView';
 console.disableYellowBox = true;
 
@@ -70,8 +71,7 @@ Navigation.registerComponent('convoyer.QRView', () => QRView);
   Navigation.startSingleScreenApp({
     screen: {
       screen: startPage,
-      title: 'CONVOYER'
-    }
+      title: 'CONVOYER'    }
   });
 
 

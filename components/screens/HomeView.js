@@ -46,7 +46,7 @@ const timer = require('react-native-timer');
 class HomeView extends React.Component {
 
   static navigatorStyle = {
-    navBarBackgroundColor: Config.colors.orange
+    navBarBackgroundColor: Config.colors.blue
   };
 
   constructor(props) {
@@ -679,7 +679,7 @@ class HomeView extends React.Component {
   incidentButton() {
 
     if (this.authService.isEnabled()) {
-      let button = <Icon.Button onPress={this.onPressIncidentButton} name="md-paper" color="#000" backgroundColor={Config.colors.orange} underlayColor="transparent" size={22} style={[styles.incidentButton]} iconStyle={{ marginRight: 0 }} padding={10} marginRight={10} />
+      let button = <Icon.Button onPress={this.onPressIncidentButton} name="md-paper" color="#000" backgroundColor={Config.colors.blue} underlayColor="transparent" size={22} style={[styles.incidentButton]} iconStyle={{ marginRight: 0 }} padding={10} marginRight={10} />
 
       return (
         <View >
@@ -715,7 +715,7 @@ class HomeView extends React.Component {
   qrButton() {
 
     if (this.authService.isEnabled()) {
-      let button = <FontAwesome.Button onPress={this.onPressQR} name={Config.icons.qr} color="#000" backgroundColor={Config.colors.orange} underlayColor="transparent" size={22} style={[styles.incidentButton]} iconStyle={{ marginRight: 0 }} padding={10} marginRight={10} />
+      let button = <FontAwesome.Button onPress={this.onPressQR} name={Config.icons.qr} color="#000" backgroundColor={Config.colors.blue} underlayColor="transparent" size={22} style={[styles.incidentButton]} iconStyle={{ marginRight: 0 }} padding={10} marginRight={10} />
 
       return (
         <View >
@@ -728,7 +728,7 @@ class HomeView extends React.Component {
   chatButton() {
 
     if (this.authService.isEnabled()) {
-      let button = <Icon.Button onPress={this.onPressChatButton} name="ios-chatbubbles" color="#000" backgroundColor={Config.colors.orange} underlayColor="transparent" size={22} style={[styles.incidentButton]} iconStyle={{ marginRight: 0 }} padding={10} marginRight={10} />
+      let button = <Icon.Button onPress={this.onPressChatButton} name="ios-chatbubbles" color="#000" backgroundColor={Config.colors.blue} underlayColor="transparent" size={22} style={[styles.incidentButton]} iconStyle={{ marginRight: 0 }} padding={10} marginRight={10} />
 
       return (
         <View >
@@ -751,7 +751,7 @@ class HomeView extends React.Component {
   }
 
   optionsButton() {
-    let button = <Icon.Button onPress={this.onPressOptionsButton} name="md-settings" color="#000" backgroundColor={Config.colors.orange} underlayColor="transparent" size={22} style={[styles.incidentButton]} iconStyle={{ marginRight: 0 }} padding={10} marginRight={10} />
+    let button = <Icon.Button onPress={this.onPressOptionsButton} name="md-settings" color="#000" backgroundColor={Config.colors.blue} underlayColor="transparent" size={22} style={[styles.incidentButton]} iconStyle={{ marginRight: 0 }} padding={10} marginRight={10} />
 
     return (
       <View >
@@ -843,11 +843,11 @@ var styles = StyleSheet.create({
     flexDirection: 'column',
     paddingTop: 30,
     justifyContent: 'space-between',
-    backgroundColor: Config.colors.orange
+    backgroundColor: Config.colors.blue
 
   },
   topToolbar: {
-    backgroundColor: '#cc7000',
+    backgroundColor: Config.colors.blue,
     borderBottomColor: 'black',
     borderBottomWidth: 2,
     flexDirection: 'row',
@@ -895,7 +895,7 @@ var styles = StyleSheet.create({
     borderRadius: 5
   },
   incidentButton: {
-    backgroundColor: "yellow"
+    backgroundColor: Config.colors.off_white
   },
   buttonContainer: {
     flexDirection: "row",

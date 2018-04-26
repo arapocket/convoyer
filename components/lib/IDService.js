@@ -159,7 +159,7 @@ class IDService {
 
         console.log('setCurrentGuard called');
 
-        fetch('http://ec2-54-187-16-98.us-west-2.compute.amazonaws.com:3000/getGuard/' + username)
+        fetch('http://ec2-54-212-237-195.us-west-2.compute.amazonaws.com:3000/getGuard/' + username)
             .then(res => res.json())
             .then(json => {
 

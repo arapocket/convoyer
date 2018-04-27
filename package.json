@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "apsl-react-native-button": "^3.1.0",
+    "hoek": "^5.0.3",
     "native-base": "^2.3.7",
     "npm": "^5.7.1",
     "react": "16.2.0",

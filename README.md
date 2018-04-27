@@ -20,15 +20,15 @@
 ##### 5.1 app.js
 ##### 5.2 index.js
 ##### 5.3 ConvoyerView
-
 ### 6.0 Convoyer App - Application Logic
 ##### 6.1 index.js and app.js
 ##### 6.2 Views
-
 ### 7.0 Spring Boot Server - Application Logic
 #### 7.1 Overview
+### 8.0 Installation
+#### 8.1 Maven
+### 9.0 Error Fixes
 
-### 8.0 Error Fixes
 
 ## 1.0 Tech Stack
 ### 1.1 Convoyer Mobile App
@@ -243,6 +243,71 @@ The **Route Editor**, **Patrol Replay** and **Incident Details** follow the same
 3. Spring Boot Server returns a **presigned url** to the client so we don't have to give out our AWS/minio credentials. 
 4. **IncidentView** uses the **presigned URL** to upload media to our AWS or Minio bucket.
 
-## 8.0 Error Fixes
+## 8.0 Installation
 
+### 8.0 Required Software
+
+1. MySql 5.7
+2. Apache Maven
+3. Node.js
+4. JDK
+5. React
+6. React Native
+
+### 8.1 Recommended Tools
+
+1. Visual Studio Code (IDE)
+2. HeidiSQL (MySQL GUI)
+
+### 8.2 Maven Installation
+
+*You will use Maven to run our Spring Boot Server, that assigns pre signed URL's to a specific route that allows us to upload media to our AWS / minio bucket*
+
+1. Download **JDK** (Java Development Kit)
+2. Download **Apache Maven**
+3. Store contents of downloads in **Program Files**
+4. Click start on Windows and type '**environment variables**'
+5. Select '**Edit the system environment variables**'
+6. Click the '**Environment Variables**' button on the bottom
+7. On the '**System Variables**' section, click 'New'
+8. For 'Variable name', type **JAVA_HOME**
+9. For 'Variable Value', type the location of your **jdk folder** (typically this will be C:\Program Files\Java\jdk1.8.0_171
+10. Add two more environment variables, **M2_HOME** and **MAVEN_HOME**, both with the same value, the location of your maven folder, typically **C:\Program Files\apache-maven-3.5.3**
+11. Find the variable with the name '**Path**'
+12. Click '**Edit**'
+13. Click '**New**'
+14. Type **C:\Program Files\Java\jdk1.8.0_171\bin** (or wherever your JDK bin folder is
+15. Add another, this time with the value **%M2_HOME%\bin**
+16. Click **OK** on all screens
+17. Open **cmd** on Windows
+18. type **mvn -v** to verify installation was successful
+19. To run our Spring Boot server, go to the folder where you installed the spring boot project in cmd type **mvn spring-boot:run**
+
+### 8.3 MySQL Installation
+1. Download and install MySQL server 5.7
+2. On the **System Variables** section in Environment variables, locate '**Path**' and click '**Edit**'
+3. Add the location of your mysql bin directory
+4. Locate the mobss.sql file supplied to you
+5. Browse to that directory in a git bash terminal
+6. **mysql -uroot -ppassword mobss < ./mobss.sql**
+
+## 9.0 Error Fixes
 Due to the nature of our development environment, you might encounter a number of errors caused by faulty code in various plugins we will be using. I will outline the most common errors you will face, as well as how to approach new errors.
+
+### 9.1 React Native
+
+#### 9.1.1 'No bundle Url present'
+
+When you run your react native project via **react-native-run-ios**, you may see a red screen pop up with this message. 
+
+To fix, enter the following in a terminal (in your project's root directory)
+
+**rm -rf ios/build/; kill $(lsof -t -i:8081); react-native run-ios**
+
+Or enter
+
+**echo "alias rni=\"kill \$(lsof -t -i:8081); rm -rf ios/build/; react-native run-ios\"" >> ~/.bashrc; source ~/.bashrc**
+
+To add this command to your bash profile. After doing this you can type **rni** in your terminal as a shortcut.
+
+#### 9.1.2 

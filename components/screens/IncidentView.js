@@ -283,7 +283,7 @@ class IncidentView extends React.Component {
       incidentType = 'Other'
     }
 
-    fetch('http://ec2-34-215-115-69.us-west-2.compute.amazonaws.com:3000/incidents', {
+    fetch('http://ec2-52-33-195-216.us-west-2.compute.amazonaws.com:3000/incidents', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
@@ -371,7 +371,7 @@ class IncidentView extends React.Component {
     }
 
 
-    xhr.open("GET", 'http://ec2-34-215-115-69.us-west-2.compute.amazonaws.com:8080/getPreSignUrl?fileName=' + fileName, true);
+    xhr.open("GET", 'http://ec2-52-33-195-216.us-west-2.compute.amazonaws.com:8080/getPreSignUrl?fileName=' + fileName, true);
 
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(null);

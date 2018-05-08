@@ -255,8 +255,8 @@ class AuthService extends React.Component {
     var self = this;
 
     socket.on('connect', function () {
-      // console.log('connected!');
-      // console.log(state);
+      console.log('connected!');
+      console.log(state);
       socket.emit('add user', state.idData.currentGuardFirstName);
       self.set('messages', [])
     });

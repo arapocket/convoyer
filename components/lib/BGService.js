@@ -111,35 +111,35 @@ class BGService {
   // Fetch plugin state.
   getState(callback) {
 
-    
 
-        this.plugin.getState((state) => {
 
-          console.log('logging plugin state');
-          console.log(state);
+    this.plugin.getState((state) => {
 
-          state = {};
+      console.log('logging plugin state');
+      console.log(state);
 
-          state.debug = false;
-          state.logLevel = this.plugin.NONE;
-          state.foregroundService = true;
-          state.autoSync = true;
-          state.stopOnTerminate = false;
-          state.startOnBoot = false;
-          state.heartbeatInterval = 60;
-          state.distanceFilter = 5;
-          state.stationaryRadius = 1;
-          // state.stopDetectionDelay = 960;
-          state.minimumActivityRecognitionConfidence = 90;
-          state.activityRecognitionInterval = 10000;
-          state.activityType = 'fitness';
-          state.params = { device: deviceInfo, test: '1' };
-          this.state = state;
-          callback(state);
-        });
-    
-      }
-  
+      state = {};
+
+      state.debug = false;
+      state.logLevel = this.plugin.NONE;
+      state.foregroundService = true;
+      state.autoSync = true;
+      state.stopOnTerminate = false;
+      state.startOnBoot = false;
+      state.heartbeatInterval = 60;
+      state.distanceFilter = 5;
+      state.stationaryRadius = 1;
+      // state.stopDetectionDelay = 960;
+      state.minimumActivityRecognitionConfidence = 90;
+      state.activityRecognitionInterval = 10000;
+      state.activityType = 'fitness';
+      state.params = { device: deviceInfo, test: '1' };
+      this.state = state;
+      callback(state);
+    });
+
+  }
+
 
   isLocationTrackingMode() {
     return (this.state.trackingMode === 1) || (this.state.trackingMode === 'location');

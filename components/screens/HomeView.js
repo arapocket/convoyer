@@ -33,8 +33,8 @@ var MAP_MARKER_IMAGE = require('../../images/location_marker.png');
 // const LONGITUDE_DELTA = 0.00099;
 // const LATITUDE_DELTA = 0.0015;
 // const LONGITUDE_DELTA = 0.0015;
-const LATITUDE_DELTA = 0.01;
-const LONGITUDE_DELTA = 0.01;
+const LATITUDE_DELTA = 0.0001;
+const LONGITUDE_DELTA = 0.001;
 const STATIONARY_REGION_FILL_COLOR = "rgba(200,0,0,0.2)"
 const STATIONARY_REGION_STROKE_COLOR = "rgba(200,0,0,0.2)"
 const POLYLINE_STROKE_COLOR = "rgba(32,64,255,0.6)";
@@ -797,7 +797,7 @@ class HomeView extends React.Component {
           showsTraffic={false}
           toolbarEnabled={false}
           loadingEnabled={true}
-          maxZoomLevel={16}
+          maxZoomLevel={18}
           mapType='standard'
         >
           <MapView.Circle

@@ -10,7 +10,7 @@ import {
   TouchableHighlight,
   StatusBar,
   Text
- } from 'react-native';
+} from 'react-native';
 
 
 import { Navigation } from 'react-native-navigation';
@@ -39,22 +39,22 @@ export default class Application extends Component {
 
 
 
-//with the navigation api, none of this stuff is being called it seems...
+  //with the navigation api, none of this stuff is being called it seems...
 
-//   componentDidMount() {
+  //   componentDidMount() {
 
-//     StatusBar.setBarStyle('default');
-//     console.ignoredYellowBox = ['Remote debugger'];
+  //     StatusBar.setBarStyle('default');
+  //     console.ignoredYellowBox = ['Remote debugger'];
 
-//   }
-//   render() {
-//     return (
-//       <View  >
-//         <LoginView />
-//       </View>
-//     );
-//   }
- }
+  //   }
+  //   render() {
+  //     return (
+  //       <View  >
+  //         <LoginView />
+  //       </View>
+  //     );
+  //   }
+}
 
 
 
@@ -68,13 +68,15 @@ Navigation.registerComponent('convoyer.OptionsView', () => OptionsView);
 Navigation.registerComponent('convoyer.QRView', () => QRView);
 
 
-  Navigation.startSingleScreenApp({
-    screen: {
-      screen: startPage,
-      title: 'CONVOYER',
-      navigatorStyle: {
-        navBarTextColor: Config.colors.white      }    }
-  });
+Navigation.startSingleScreenApp({
+  screen: {
+    screen: startPage,
+    title: 'CONVOYER',
+    navigatorStyle: {
+      navBarTextColor: Config.colors.white
+    }
+  }
+});
 
 
 

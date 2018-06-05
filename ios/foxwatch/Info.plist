@@ -55,8 +55,6 @@
 	<string>Convoyer waits for changes in your motion to resume location tracking.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string></string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string></string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Entypo.ttf</string>

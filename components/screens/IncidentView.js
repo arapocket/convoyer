@@ -414,6 +414,7 @@ class IncidentView extends React.Component {
           xhr.onreadystatechange = function () {
             if (xhr.readyState === 4) {
               if (xhr.status === 200) {
+                
                 authService.toast('Successfully uploaded the file.');
                 EventRegister.emit('new incident', idService.getCurrentIncidentID());
               } else {
@@ -434,6 +435,7 @@ class IncidentView extends React.Component {
         xhr.onreadystatechange = function () {
           if (xhr.readyState === 4) {
             if (xhr.status === 200) {
+              
               authService.toast('Successfully uploaded the file.');
               EventRegister.emit('new incident', idService.getCurrentIncidentID());
             } else {
@@ -445,11 +447,8 @@ class IncidentView extends React.Component {
         xhr.send({
           uri: filePath, type: fileType, name: fileName
         });
-
       }
-
     }
-
   }
 
   render() {

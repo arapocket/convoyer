@@ -8,7 +8,7 @@ dependencies: \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
-  /Users/Pocket/convoyer/node_modules/react-native-camera/ios/RN/RNFaceDetectorManagerStub.h \
+  /Users/Pocket/convoyer/node_modules/react-native-camera/ios/FaceDetector/RNFaceDetectorManager.h \
   /Users/Pocket/convoyer/node_modules/react-native-camera/ios/RN/RNCameraManager.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
   /Users/Pocket/convoyer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \

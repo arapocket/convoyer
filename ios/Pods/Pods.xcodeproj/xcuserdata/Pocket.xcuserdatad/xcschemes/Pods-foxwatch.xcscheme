@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BDF1A26CA8D9D828B2F7C1B203CB4B30"
+               BlueprintIdentifier = "8E1044CBE60326C0F9FBC87CAB600CE5"
                BlueprintName = "Pods-foxwatch"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libPods-foxwatch.a">

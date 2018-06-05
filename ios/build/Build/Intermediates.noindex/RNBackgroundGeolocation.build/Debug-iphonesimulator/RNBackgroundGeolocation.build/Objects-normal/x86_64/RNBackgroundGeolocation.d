@@ -2,7 +2,14 @@ dependencies: \
   /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/RNBackgroundGeolocation.m \
   /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/RNBackgroundGeolocation.h \
   /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Modules/module.modulemap \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSConfig.h \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSCurrentPositionRequest.h \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSWatchPositionRequest.h \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/LocationManager.h \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSGeofence.h \
   /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSGeofenceEvent.h \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSEnabledChangeEvent.h \
+  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSConnectivityChangeEvent.h \
   /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSPowerSaveChangeEvent.h \
   /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSGeofencesChangeEvent.h \
   /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSScheduleEvent.h \
@@ -10,7 +17,6 @@ dependencies: \
   /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSHttpEvent.h \
   /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSProviderChangeEvent.h \
   /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSActivityChangeEvent.h \
-  /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/LocationManager.h \
   /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSLocation.h \
   /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSSchedule.h \
   /Users/Pocket/convoyer/node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework/Headers/TSLocationManager.h \
